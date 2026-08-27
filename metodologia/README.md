@@ -4,10 +4,10 @@
   <br>
   
 <p align="center">
-  Olá! Meu nome é <b>Luiz</b> e atualmente curso o <b>5º semestre de Banco de Dados</b> na Fatec de São José dos Campos. Trabalho como Business Analyst I na <b>Your ID INC</b>.
+  Olá! Meu nome é <b>Luiz</b> e atualmente curso o <b>6º semestre de Banco de Dados</b> na Fatec de São José dos Campos. Trabalho como Business Analyst I na <b>Your ID INC</b>.
   <br>
 </p>
-<!-- Links de Contato com Badges Estilizados -->
+
   <p>
     <a href="mailto:luixhferreira@gmail.com?subject=Assunto%20do%20E-mail&body=Olá,%20tudo%20bem?">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
@@ -20,10 +20,10 @@
     </a>
   </p>
 </div>
-  <div align="center">
-    <img src="assets/Projects-Header.png">
-  </div>
-  <hr>
+
+<div align="center">
+  <img src="assets/Projects-Header.png" alt="Projetos">
+</div>
 
 <!-- 1º Semestre -->
 <hr>
@@ -48,7 +48,7 @@
   <summary style="font-size: 1.2em; font-weight: bold;">Detalhes do Projeto</summary>
 
   <div align="center">
-    <img src="assets/Introduction-Header.png">
+    <img src="assets/Introduction-Header.png" alt="Introdução">
   </div>
 
   <p align="justify">
@@ -56,18 +56,19 @@
   </p>
 
   <p align="justify">
-    O desenvolvimento foi dividido em sprints, com as primeiras entregas sendo realizadas em <b>VisualG</b> e a evolução posterior para <b>TypeScript</b>. Essa transição foi importante para consolidar a lógica de programação e também para introduzir o time a práticas mais próximas do desenvolvimento real, como modularização, versionamento e integração entre funcionalidades.
+    O desenvolvimento foi dividido em sprints, com as primeiras entregas realizadas em <b>VisualG</b> e a evolução posterior para <b>TypeScript</b>. Entre as funcionalidades implementadas estavam operações aritméticas, divisão, fatorial, cálculo de juros, concatenação de strings e conversões entre diferentes bases numéricas. Essa transição foi importante para consolidar a lógica de programação e também para introduzir o time a práticas mais próximas do desenvolvimento real, como modularização, versionamento e integração entre funcionalidades.
   </p>
 
   <p align="justify">
-    Entre as funcionalidades implementadas estavam operações aritméticas, divisão, fatorial, cálculo de juros, concatenação de strings e conversões entre diferentes bases numéricas. Além da construção funcional da calculadora, o projeto também exigiu cuidado com a experiência de uso no terminal, organização dos menus e tratamento de entradas inválidas.
+    Atuei como <b>desenvolvedor</b>, contribuindo principalmente com a integração das operações ao menu principal, com a validação de entradas e o tratamento de erros na divisão e com o desenvolvimento das conversões entre bases numéricas. Além da construção funcional da calculadora, o projeto também exigiu cuidado com a experiência de uso no terminal, a organização dos menus e o tratamento de entradas inválidas.
   </p>
 
   <div align="center">
-    <img src="assets/1_semestre/tecnologias.png" style="border-radius: 20px">
+    <img src="assets/1_semestre/tecnologias.png" alt="Tecnologias utilizadas no projeto" style="border-radius: 20px">
   </div>
+
   <div align="center">
-    <img src="assets/Contribuition-Header.png">
+    <img src="assets/Contribuition-Header.png" alt="Contribuições">
   </div>
 
   <br>
@@ -79,11 +80,12 @@
       Uma das minhas contribuições foi participar da organização do fluxo principal da calculadora, conectando operações ao menu e ajudando a estruturar a navegação do sistema em terminal. Esse tipo de contribuição foi importante para garantir que as funções desenvolvidas pela equipe pudessem ser acessadas de forma clara e organizada pelo usuário.
     </p>
 
-    <p align="justify">
+  <p align="justify">
       O menu principal centralizava operações como soma, subtração, multiplicação, divisão, fatorial, função de segundo grau, cálculo de juros, conversões e concatenação de strings. Além disso, a aplicação também contava com submenus específicos, como o de conversão de base, o que ajudava a manter a experiência de uso mais intuitiva.
     </p>
 
-    <p align="justify"><b>Trecho do código:</b></p>
+  <p><b>Trecho do código:</b></p>
+    
     <pre><code class="language-js">console.log("║ [1] SOMA                                           ║");
       console.log("║ [2] SUBTRAÇÃO                                      ║");
       console.log("║ [3] MULTIPLICAÇÃO                                  ║");
@@ -94,19 +96,20 @@
       console.log("║ [8] CONVERSÃO DE BASE                              ║");
       console.log("║ [9] CONCATENAÇÃO DE STRINGS                        ║");
 
-    switch (opcao) {
-      case "4":
-        do {
-          divisao();
-        } while (repetirOperacao());
-        break;
-      case "8":
-        selecionarConversao();
-        break;
-    }</code></pre>
+      switch (opcao) {
+        case "4":
+          do {
+            divisao();
+          } while (repetirOperacao());
+          break;
+        case "8":
+          selecionarConversao();
+          break;
+        }
+    </code></pre>
 
   <div align="center">
-    <p align="justify"><b>Exemplo visual:</b></p>
+    <p><b>Exemplo visual:</b></p>
     <img src="assets/1_semestre/calculadora-cientifica-menu-principal.png" alt="Menu principal da calculadora">
   </div>
   </details>
@@ -120,28 +123,31 @@
       Uma parte importante da minha atuação no projeto esteve relacionada ao tratamento de entradas inválidas, especialmente na operação de divisão. Em uma aplicação de terminal, onde o usuário interage apenas digitando valores, garantir a validação correta dos dados é essencial para evitar falhas e tornar o sistema mais seguro.
     </p>
 
-    <p align="justify">
-      Trabalhei em melhorias como a validação da quantidade mínima de números, verificação de entrada numérica válida, prevenção de divisão por zero e cuidado com a exibição do resultado. Essas correções ajudaram a tornar a operação mais robusta e melhoraram a experiência do usuário ao utilizar a calculadora.
-    </p>
+  <p align="justify">
+    Trabalhei em melhorias como a validação da quantidade mínima de números, a verificação de entrada numérica válida, a prevenção de divisão por zero e o cuidado com a exibição do resultado. Essas correções ajudaram a tornar a operação mais robusta e melhoraram a experiência do usuário ao utilizar a calculadora.
+  </p>
 
-    <p align="justify"><b>Trecho do código:</b></p>
-    <pre><code class="language-js">do {
-    num = prompt("Quantos números deseja dividir? ");
-    validInput = /^\d+$/.test(num);
-    quantidade = parseInt(num);
+  <p><b>Trecho do código:</b></p>
+      
+    <pre><code class="language-js">
+      do {
+        num = prompt("Quantos números deseja dividir? ");
+        validInput = /^\d+$/.test(num);
+        quantidade = parseInt(num);
 
-      if (!validInput || isNaN(quantidade) || quantidade &lt;= 1) {
-        console.log("Por favor, insira um número válido.");
+        if (!validInput || isNaN(quantidade) || quantidade &lt;= 1) {
+          console.log("Por favor, insira um número válido.");
+        }
+      } while (!validInput || isNaN(quantidade) || quantidade &lt;= 1);
+
+      if (divisor === 0) {
+        console.log("Não é possível dividir por zero. Tente novamente.");
+        return;
       }
-    } while (!validInput || isNaN(quantidade) || quantidade &lt;= 1);
-
-    if (divisor === 0) {
-      console.log("Não é possível dividir por zero. Tente novamente.");
-      return;
-    }</code></pre>
+    </code></pre>
 
   <div align="center">
-    <p align="justify"><b>Exemplo visual:</b></p>
+    <p><b>Exemplo visual:</b></p>
     <img src="assets/1_semestre/calculadora-cientifica-validacao-divisao.png" alt="Validação de entrada na operação de divisão">
   </div>
   </details>
@@ -152,37 +158,40 @@
     <summary>🛠️ Desenvolvimento de conversões numéricas</summary>
     <hr>
     <p align="justify">
-      Também contribuí no desenvolvimento de funcionalidades ligadas às conversões numéricas, como a conversão de binário para octal. Esse tipo de implementação exigiu atenção à lógica de programação, validação da entrada do usuário e transformação correta dos valores entre diferentes representações numéricas.
+      Também contribuí no desenvolvimento de funcionalidades ligadas às conversões numéricas, como a conversão de binário para octal. Esse tipo de implementação exigiu atenção à lógica de programação, à validação da entrada do usuário e à transformação correta dos valores entre diferentes representações numéricas.
     </p>
 
-    <p align="justify">
-      Além da lógica principal da conversão, também trabalhei com a validação da entrada binária, evitando que valores inválidos fossem processados. Essa contribuição foi importante para ampliar o conjunto de funcionalidades da calculadora e reforçar meu aprendizado em estruturas condicionais, repetição e manipulação de dados.
-    </p>
+  <p align="justify">
+    Além da lógica principal da conversão, também trabalhei com a validação da entrada binária, evitando que valores inválidos fossem processados. Essa contribuição foi importante para ampliar o conjunto de funcionalidades da calculadora e reforçar meu aprendizado em estruturas condicionais, repetição e manipulação de dados.
+  </p>
 
-    <p align="justify"><b>Trecho do código:</b></p>
-    <pre><code class="language-js">for (let index = 0; index &lt; binario.length; index++) {
-      let letraAtual = binario[index];
+  <p><b>Trecho do código:</b></p>
+    
+    <pre><code class="language-js">
+      for (let index = 0; index &lt; binario.length; index++) {
+        let letraAtual = binario[index];
 
-      if (letraAtual !== "1" && letraAtual !== "0") {
-        valido = "Invalido";
+        if (letraAtual !== "1" &amp;&amp; letraAtual !== "0") {
+          valido = "Invalido";
+        }
       }
-    }
 
-    for (let index = binario.length - 1; index &gt;= 0; index--) {
-      if (binario[index] === "1") {
-        decimal += 2 ** potencia;
+      for (let index = binario.length - 1; index &gt;= 0; index--) {
+        if (binario[index] === "1") {
+          decimal += 2 ** potencia;
+        }
+        potencia++;
       }
-      potencia++;
-    }
 
-    do {
-      octal = Math.floor(decimal % 8);
-      decimal /= 8;
-      Resul += octal.toString();
-    } while (decimal &gt; 1);</code></pre>
+      do {
+        octal = Math.floor(decimal % 8);
+        decimal /= 8;
+        Resul += octal.toString();
+      } while (decimal &gt; 1);
+    </code></pre>
 
   <div align="center">
-    <p align="justify"><b>Exemplo visual:</b></p>
+    <p><b>Exemplo visual:</b></p>
     <img src="assets/1_semestre/calculadora-cientifica-conversao-binario-octal.png" alt="Conversão entre bases numéricas na calculadora">
   </div>
   </details>
@@ -190,66 +199,203 @@
   <br>
 
   <div align="center">
-    <img src="assets/Learn-Header.png">
-  </div>
 
-  <h2> 💻 Hard Skills </h2>
+  <img src="assets/Learn-Header.png" alt="Aprendizados">
 
-  <details>
-    <summary>🛠️ Lógica de Programação</summary>
-    <ul>
-      <li>Desenvolvi minha base em lógica de programação ao implementar funções matemáticas, menus e estruturas condicionais.</li>
-      <li>Aprendi a organizar melhor entradas, processamento e saída de dados em uma aplicação de terminal.</li>
-      <li>Esse aprendizado foi essencial para compreender como transformar regras de negócio em código funcional.</li>
-    </ul>
-  </details>
+</div>
 
-  <details>
-    <summary>🛠️ TypeScript Básico</summary>
-    <ul>
-      <li>Tive meus primeiros contatos com TypeScript durante a evolução do projeto.</li>
-      <li>Aprendi noções de tipagem, organização modular e estruturação de funções em uma linguagem mais próxima do mercado.</li>
-      <li>Isso me ajudou a entender melhor boas práticas de desenvolvimento e legibilidade do código.</li>
-    </ul>
-  </details>
+<h2> 💻 Hard Skills </h2>
 
-  <details>
-    <summary>🛠️ Git e GitHub</summary>
-    <ul>
-      <li>Aprendi a utilizar versionamento de código para registrar e integrar minhas alterações no projeto.</li>
-      <li>Pratiquei o uso de commits, merges e acompanhamento da evolução do repositório em equipe.</li>
-      <li>Esse contato foi importante para entender fluxos de colaboração no desenvolvimento de software.</li>
-    </ul>
-  </details>
+<details>
 
-  <h2> 🤝 Soft Skills </h2>
+  <summary>🛠️ Lógica de programação</summary>
 
-  <details>
-    <summary>🌱 Trabalho em Equipe</summary>
-    <ul>
-      <li>Aprendi a colaborar com os integrantes do grupo durante a divisão e integração das funcionalidades.</li>
-      <li>Essa convivência me ajudou a entender melhor a importância da comunicação e da responsabilidade compartilhada.</li>
-      <li>O projeto mostrou que mesmo tarefas pequenas impactam diretamente no resultado coletivo.</li>
-    </ul>
-  </details>
+  <p align="justify">
 
-  <details>
-    <summary>🌱 Adaptação ao Scrum</summary>
-    <ul>
-      <li>Tive contato com a organização do trabalho em sprints, backlog e entregas incrementais.</li>
-      <li>Aprendi a acompanhar a evolução do projeto em etapas e a me adaptar a prioridades definidas pelo time.</li>
-      <li>Isso me ajudou a desenvolver uma visão mais estruturada sobre gestão de desenvolvimento.</li>
-    </ul>
-  </details>
+O desenvolvimento da calculadora foi principalmente uma oportunidade para consolidar minha <strong>lógica de programação</strong>. Ao trabalhar com operações matemáticas, validação de entradas, estruturas condicionais, repetições e conversões entre bases numéricas, precisei aprender a dividir problemas maiores em etapas menores e transformar cada regra em uma sequência de instruções que o programa pudesse executar.
 
-  <details>
-    <summary>🌱 Padronização e Disciplina no Desenvolvimento</summary>
-    <ul>
-      <li>Aprendi a importância de seguir padrões de organização, nomenclatura e versionamento.</li>
-      <li>Esse cuidado contribuiu para deixar o código mais compreensível e facilitar a manutenção do projeto.</li>
-      <li>Também foi uma experiência importante para criar disciplina nas minhas primeiras práticas de programação.</li>
-    </ul>
-  </details>
+  </p>
+
+  <p align="justify">
+
+Um dos principais aprendizados foi entender que fazer uma funcionalidade funcionar é apenas uma parte do desenvolvimento. As situações de entrada inválida e os diferentes caminhos que o usuário poderia seguir me obrigaram a pensar também nos casos que poderiam interromper ou comprometer a execução. A validação da divisão e das conversões numéricas, por exemplo, mostrou na prática a importância de considerar diferentes cenários antes de definir uma solução.
+
+  </p>
+
+  <p align="justify">
+
+Essa experiência criou uma base importante para minha evolução como desenvolvedor. Passei a enxergar a programação menos como a escrita de comandos isolados e mais como o processo de <strong>transformar um problema em regras, condições e etapas que possam ser implementadas de forma organizada</strong>.
+
+  </p>
+
+</details>
+
+<br>
+
+<details>
+
+  <summary>🛠️ TypeScript básico</summary>
+
+  <p align="justify">
+
+A evolução do projeto de <strong>VisualG para TypeScript</strong> foi importante para começar a aplicar a lógica que eu já vinha desenvolvendo em uma linguagem mais próxima das ferramentas utilizadas no mercado. Essa mudança também trouxe uma preocupação maior com a organização do código, a definição de funções e a separação das responsabilidades dentro da aplicação.
+
+  </p>
+
+  <p align="justify">
+
+Como o projeto possuía diferentes operações e funcionalidades conectadas ao menu principal, comecei a perceber a importância de estruturar o código de maneira que novas funcionalidades pudessem ser adicionadas sem comprometer aquilo que já estava funcionando. Esse contato inicial com TypeScript ajudou a desenvolver minha atenção para <strong>legibilidade, organização e manutenção do código</strong>.
+
+  </p>
+
+  <p align="justify">
+
+Ainda considero meu conhecimento de TypeScript inicial, mas essa experiência foi importante porque marcou a transição entre aprender conceitos de programação e começar a aplicá-los em uma linguagem utilizada em projetos de desenvolvimento de software.
+
+  </p>
+
+</details>
+
+<br>
+
+<details>
+
+  <summary>🛠️ Git e GitHub</summary>
+
+  <p align="justify">
+
+O desenvolvimento em equipe também me apresentou de forma mais prática ao <strong>Git e GitHub</strong>. Conforme cada integrante trabalhava em diferentes partes da calculadora, o versionamento deixou de ser apenas uma forma de armazenar o código e passou a fazer parte da organização do próprio projeto.
+
+  </p>
+
+  <p align="justify">
+
+Aprendi a utilizar commits, acompanhar alterações, integrar diferentes partes do código e lidar com merges. Esse processo mostrou que o histórico de alterações também é uma ferramenta de colaboração, permitindo entender o que foi modificado e facilitando a integração das contribuições de diferentes integrantes.
+
+  </p>
+
+  <p align="justify">
+
+Foi também um primeiro contato com uma prática que se tornou fundamental nos projetos seguintes: <strong>organizar o desenvolvimento de forma que outras pessoas consigam acompanhar, revisar e integrar aquilo que foi produzido</strong>.
+
+  </p>
+
+</details>
+
+<h2> 🤝 Soft Skills </h2>
+
+<details>
+
+  <summary>🌱 Trabalho em equipe</summary>
+
+  <p align="justify">
+
+Como a calculadora foi desenvolvida em grupo, precisei aprender que uma contribuição individual não existe de forma isolada. Minha atuação na integração do menu, na validação da divisão e nas conversões numéricas dependia de funcionalidades desenvolvidas por outros integrantes e, ao mesmo tempo, poderia afetar partes do sistema que estavam sob responsabilidade deles.
+
+  </p>
+
+  <p align="justify">
+
+Essa dinâmica me fez desenvolver uma visão mais colaborativa sobre o desenvolvimento. Passei a entender a importância de alinhar alterações, comunicar problemas e considerar o impacto das próprias decisões antes de modificar uma parte compartilhada do projeto.
+
+  </p>
+
+  <p align="justify">
+
+Mais do que simplesmente dividir tarefas, essa experiência me ensinou que <strong>trabalho em equipe significa construir uma solução em conjunto e assumir responsabilidade também pelo impacto da sua parte no resultado final</strong>.
+
+  </p>
+
+</details>
+
+<br>
+
+<details>
+
+  <summary>🌱 Adaptação ao Scrum</summary>
+
+  <p align="justify">
+
+O projeto foi organizado em <strong>sprints</strong>, o que me permitiu ter meu primeiro contato com uma dinâmica de desenvolvimento baseada em entregas incrementais. Em vez de enxergar a calculadora como uma única entrega, o trabalho foi dividido em etapas que permitiam acompanhar a evolução do produto e organizar as funcionalidades ao longo do semestre.
+
+  </p>
+
+  <p align="justify">
+
+Essa experiência me ajudou a entender melhor a importância de acompanhar o progresso do projeto e de adaptar o trabalho conforme as necessidades de cada etapa. Também comecei a perceber como a organização do processo influencia diretamente a capacidade do time de entregar funcionalidades de forma progressiva.
+
+  </p>
+
+  <p align="justify">
+
+O contato com Scrum foi importante para desenvolver uma postura mais <strong>organizada e adaptável</strong>, principalmente por mostrar que desenvolvimento de software envolve não apenas programação, mas também planejamento, acompanhamento e colaboração contínua.
+
+  </p>
+
+</details>
+
+<br>
+
+<details>
+
+  <summary>🌱 Padronização e disciplina no desenvolvimento</summary>
+
+  <p align="justify">
+
+Outro aprendizado importante foi perceber que a qualidade de uma aplicação não depende apenas de suas funcionalidades. Conforme o projeto cresceu, comecei a prestar mais atenção na organização do código, na estrutura das funções, na forma como as alterações eram versionadas e na maneira como as diferentes partes da aplicação se conectavam.
+
+  </p>
+
+  <p align="justify">
+
+As situações de validação e tratamento de erros foram especialmente importantes nesse sentido. Elas mostraram que uma solução precisa considerar não apenas o cenário esperado, mas também as situações em que o usuário fornece uma entrada incorreta ou tenta realizar uma operação que não pode ser executada.
+
+  </p>
+
+  <p align="justify">
+
+Essa experiência contribuiu para desenvolver uma primeira noção de <strong>qualidade e disciplina no desenvolvimento</strong>. Comecei a entender que escrever código é também estabelecer padrões que facilitem sua leitura, manutenção e evolução.
+
+  </p>
+
+</details>
+
+<h2> 📚 Competências desenvolvidas </h2>
+
+<h3>💻 Competências técnicas</h3>
+
+<ul>
+  <li><strong>Lógica de programação</strong> — básico/intermediário</li>
+  <li><strong>TypeScript</strong> — básico</li>
+  <li><strong>Git e GitHub</strong> — básico/intermediário</li>
+  <li><strong>Estruturas condicionais e funções</strong> — básico/intermediário</li>
+  <li><strong>Validação de entradas</strong> — básico/intermediário</li>
+  <li><strong>Tratamento de erros</strong> — básico/intermediário</li>
+  <li><strong>Modularização de código</strong> — básico</li>
+  <li><strong>Aplicações de terminal</strong> — básico/intermediário</li>
+  <li><strong>Conversão entre bases numéricas</strong> — básico/intermediário</li>
+</ul>
+
+<h3>🤝 Soft Skills trabalhadas</h3>
+
+<p align="justify">
+
+Esse projeto desenvolveu principalmente minha <strong>capacidade de colaboração, adaptação e organização</strong>. Trabalhar em uma aplicação construída por várias pessoas mostrou que o desenvolvimento exige comunicação constante e atenção ao impacto que cada alteração pode causar nas demais partes do sistema.
+
+</p>
+
+<p align="justify">
+
+Também desenvolvi uma visão mais estruturada sobre <strong>processos de desenvolvimento</strong>. O contato com sprints, entregas incrementais e versionamento mostrou que construir software envolve muito mais do que implementar funcionalidades: é necessário organizar o trabalho, acompanhar sua evolução e integrar diferentes contribuições em uma única solução.
+
+</p>
+
+<p align="justify">
+
+Por fim, a experiência ajudou a desenvolver minha <strong>disciplina técnica</strong>. Ao lidar com validações, tratamento de erros, organização do código e integração de funcionalidades, comecei a entender que uma boa implementação precisa considerar tanto o funcionamento esperado quanto os cenários que podem gerar problemas. Foi uma experiência inicial, mas importante para estabelecer a base técnica e profissional que seria aprofundada nos projetos seguintes.
+
+</p>
+
 </details>
 
 <!-- 2º Semestre -->
@@ -275,7 +421,7 @@
   <summary style="font-size: 1.2em; font-weight: bold;">Detalhes do Projeto</summary>
 
   <div align="center">
-    <img src="assets/Introduction-Header.png">
+    <img src="assets/Introduction-Header.png" alt="Introdução">
   </div>
 
   <p align="justify">
@@ -287,14 +433,15 @@
   </p>
 
   <p align="justify">
-    Neste projeto, atuei como <b>Product Owner</b>, sendo responsável por apoiar a organização do produto e por manter a documentação atualizada ao longo do desenvolvimento. Minha atuação esteve mais concentrada na definição e acompanhamento dos artefatos do projeto do que na implementação em código, contribuindo para que o time tivesse clareza sobre a evolução das entregas e sobre a visão geral do sistema.
+    Atuei como <b>Product Owner</b>, sendo responsável por apoiar a organização do produto e por manter a documentação atualizada ao longo do desenvolvimento. Minha atuação esteve mais concentrada na definição e no acompanhamento dos artefatos do projeto do que na implementação em código, contribuindo para que o time tivesse clareza sobre a evolução das entregas e sobre a visão geral do sistema.
   </p>
 
   <div align="center">
-    <img src="assets/2_semestre/tecnologias.png" style="border-radius: 20px">
+    <img src="assets/2_semestre/tecnologias.png" alt="Tecnologias utilizadas no projeto" style="border-radius: 20px">
   </div>
+
   <div align="center">
-    <img src="assets/Contribuition-Header.png">
+    <img src="assets/Contribuition-Header.png" alt="Contribuições">
   </div>
 
   <br>
@@ -305,15 +452,13 @@
     <p align="justify">
       Minha principal contribuição neste projeto foi atuar como Product Owner, ajudando a organizar a visão do produto ao longo do semestre. Essa atuação envolveu acompanhar a estrutura geral do sistema, apoiar a definição das entregas e manter coerência entre o que estava sendo desenvolvido e o que o projeto precisava entregar.
     </p>
-
-  <p align="justify">
-    Como o sistema possuía diferentes módulos — como autenticação, grupos, critérios, sprints e relatórios — foi importante garantir que a evolução das funcionalidades estivesse alinhada ao objetivo central da aplicação. Essa experiência me ajudou a entender melhor a responsabilidade de organizar o produto para o time e acompanhar sua construção de forma mais estratégica.
-  </p>
-
-  <div align="center">
-    <p align="justify"><b>Exemplo visual:</b></p>
-    <img src="assets/2_semestre/pacer-tela-principal.png" alt="Tela principal do sistema">
-  </div>
+    <p align="justify">
+      Como o sistema possuía diferentes módulos (autenticação, grupos, critérios, sprints e relatórios), foi importante garantir que a evolução das funcionalidades estivesse alinhada ao objetivo central da aplicação. Essa experiência me ajudou a entender melhor a responsabilidade de organizar o produto para o time e de acompanhar sua construção de forma mais estratégica.
+    </p>
+    <div align="center">
+      <p><b>Exemplo visual:</b></p>
+      <img src="assets/2_semestre/pacer-tela-principal.png" alt="Tela principal do PACER Assessment System">
+    </div>
   </details>
 
   <br>
@@ -322,114 +467,201 @@
     <summary>🛠️ Documentação contínua do projeto</summary>
     <hr>
     <p align="justify">
-      Outra contribuição importante foi a manutenção da documentação do projeto ao longo do desenvolvimento. Pelo histórico do repositório, minha participação esteve fortemente ligada à atualização do README, organização de arquivos e publicação de artefatos importantes para apresentação e entendimento do sistema.
+      Outra contribuição importante foi a manutenção da documentação do projeto ao longo do desenvolvimento. Pelo histórico do repositório, minha participação esteve fortemente ligada à atualização do README, à organização de arquivos e à publicação de artefatos importantes para a apresentação e o entendimento do sistema.
     </p>
-
-  <p align="justify">
-    Esse trabalho foi relevante porque ajudou a consolidar a visão do projeto, registrar sua evolução e tornar mais fácil a comunicação das funcionalidades e requisitos para quem fosse consultar o repositório. Além disso, a documentação também teve papel importante na apresentação acadêmica do sistema e na formalização dos resultados da equipe.
-  </p>
-
-  <div align="center">
-    <p align="justify"><b>Exemplo visual:</b></p>
-    <img src="assets/2_semestre/pacer-documentacao.png" alt="Documentação do projeto PACER">
-  </div>
+    <p align="justify">
+      Esse trabalho foi relevante porque ajudou a consolidar a visão do projeto, registrar sua evolução e tornar mais fácil a comunicação das funcionalidades e requisitos para quem fosse consultar o repositório. Além disso, a documentação também teve papel importante na apresentação acadêmica do sistema e na formalização dos resultados da equipe.
+    </p>
+    <div align="center">
+      <p><b>Exemplo visual:</b></p>
+      <img src="assets/2_semestre/pacer-documentacao.png" alt="Documentação do projeto PACER">
+    </div>
   </details>
 
   <br>
 
   <details>
-    <summary>🛠️ Organização de artefatos de acompanhamento e planejamento</summary>
+    <summary>🛠️ Escrita das user stories e organização de artefatos de acompanhamento</summary>
     <hr>
     <p align="justify">
-      Também contribuí com a organização de artefatos que apoiavam o acompanhamento do projeto, como gráficos de burndown, wireframes e outros materiais visuais e estruturais. Esses elementos eram importantes para acompanhar a evolução das entregas e comunicar melhor o planejamento e a proposta da solução.
+      Também fui responsável por escrever as user stories do projeto, descrevendo as funcionalidades a partir da perspectiva do usuário para orientar o desenvolvimento do time. Além disso, contribuí com a organização de artefatos que apoiavam o acompanhamento do projeto, como gráficos de burndown, wireframes e outros materiais visuais e estruturais. Vale destacar que os wireframes não foram elaborados por mim, mas por outros integrantes do time; minha atuação sobre eles foi de organização e publicação no repositório. Esses elementos eram importantes para acompanhar a evolução das entregas e comunicar melhor o planejamento e a proposta da solução.
     </p>
-
-  <p align="justify">
-    O wireframe ajudava a representar visualmente a estrutura esperada do sistema, enquanto o burndown funcionava como evidência do acompanhamento do progresso das sprints. Esse tipo de contribuição reforçou minha atuação mais voltada à organização do produto, planejamento e acompanhamento do time.
-  </p>
-
-  <div align="center">
-    <p align="justify"><b>Exemplos visuais:</b></p>
-    <img src="assets/2_semestre/pacer-burndown.png" alt="Burndown do projeto PACER">
-  </div>
+    <p align="justify">
+      O wireframe ajudava a representar visualmente a estrutura esperada do sistema, enquanto o burndown funcionava como evidência do acompanhamento do progresso das sprints. Esse tipo de contribuição reforçou minha atuação mais voltada à organização do produto, ao planejamento e ao acompanhamento do time.
+    </p>
+    <div align="center">
+      <p><b>Exemplo visual:</b></p>
+      <img src="assets/2_semestre/pacer-burndown.png" alt="Gráfico de burndown do projeto PACER">
+    </div>
   </details>
-  
+
   <br>
 
   <div align="center">
-    <img src="assets/Learn-Header.png">
+
+  <img src="assets/Learn-Header.png" alt="Aprendizados">
+
   </div>
 
   <h2> 💻 Hard Skills </h2>
 
   <details>
-    <summary>🛠️ Documentação de Software</summary>
-    <ul>
-      <li>Desenvolvi maior familiaridade com a organização e manutenção de documentação de software ao longo do projeto.</li>
-      <li>Aprendi a estruturar informações importantes no README e em outros artefatos para registrar a evolução do produto.</li>
-      <li>Esse aprendizado foi importante para entender como a documentação contribui para comunicação, apresentação e continuidade do projeto.</li>
-    </ul>
+    <summary>🛠️ Product Owner e gestão de produto</summary>
+    <p align="justify">
+      O segundo semestre marcou uma mudança importante na minha trajetória dentro dos projetos acadêmicos: passei a atuar como <strong>Product Owner</strong>. Depois de ter uma experiência mais voltada ao desenvolvimento no semestre anterior, comecei a enxergar o projeto não apenas pela perspectiva de implementação, mas também pela necessidade de entender o produto como um todo.
+    </p>
+    <p align="justify">
+      Também comecei a compreender melhor o papel do Product Owner como uma ponte entre a necessidade do produto e o trabalho do time. Mesmo estando em uma experiência acadêmica e inicial nessa função, esse foi um primeiro contato importante com <strong>priorização, organização de entregas, acompanhamento de requisitos e tomada de decisões sob a perspectiva do produto</strong>.
+    </p>
   </details>
+
+  <br>
+  
+  <details>
+    <summary>🛠️ Documentação de software</summary>
+    <p align="justify">
+      A documentação passou a ter uma importância muito maior na minha atuação durante esse projeto. Diferentemente do semestre anterior, em que minha contribuição estava mais concentrada na implementação de funcionalidades, no PACER precisei manter informações do projeto organizadas e atualizadas para que outras pessoas conseguissem compreender a solução e acompanhar sua evolução.
+    </p>
+    <p align="justify">
+      Trabalhar com README, artefatos de planejamento e materiais utilizados durante as apresentações me mostrou que documentação não é apenas um registro complementar ao desenvolvimento. Ela também funciona como uma forma de <strong>preservar contexto, comunicar decisões e tornar o produto compreensível para diferentes pessoas</strong>.
+    </p>
+    <p align="justify">
+      Essa experiência desenvolveu minha capacidade de transformar informações do projeto em uma documentação mais estruturada, algo que se tornou especialmente relevante para minha atuação posterior em funções que envolvem requisitos, organização e comunicação entre diferentes áreas.
+    </p>
+  </details>
+
+   <br>
 
   <details>
     <summary>🛠️ Modelagem e visão estrutural de sistemas</summary>
-    <ul>
-      <li>Acompanhei artefatos como DER, wireframes e estrutura funcional do sistema.</li>
-      <li>Esse contato me ajudou a desenvolver uma visão mais ampla sobre como os requisitos do produto se conectam com a modelagem e a solução implementada.</li>
-      <li>Foi uma experiência importante para fortalecer minha leitura de artefatos técnicos mesmo sem atuar diretamente na codificação.</li>
-    </ul>
+    <p align="justify">
+      Mesmo não estando diretamente responsável pela implementação do sistema, acompanhar sua construção me aproximou de diferentes artefatos utilizados para representar uma solução, como <strong>DER, wireframes e estruturas funcionais</strong>. Isso me permitiu desenvolver uma visão mais ampla sobre como uma necessidade pode ser representada antes ou durante sua transformação em software.
+    </p>
+    <p align="justify">
+      Esse contato foi importante porque comecei a enxergar a relação entre diferentes níveis do projeto: requisitos, experiência do usuário, estrutura de dados e funcionalidades. Como Product Owner, essa compreensão ajudava a acompanhar o desenvolvimento sem precisar estar diretamente envolvido em cada implementação.
+    </p>
+    <p align="justify">
+      Foi também um passo importante para desenvolver minha capacidade de <strong>ler e interpretar artefatos técnicos</strong>, conectando aquilo que estava sendo documentado com o comportamento esperado do produto.
+    </p>
   </details>
 
+  <br>
+
   <details>
-    <summary>🛠️ Gestão de Produto em contexto ágil</summary>
-    <ul>
-      <li>Aprendi melhor como acompanhar a evolução de um produto em sprints, organizando artefatos e apoiando a priorização das entregas.</li>
-      <li>Esse contato ampliou minha compreensão sobre o papel do Product Owner dentro de um time.</li>
-      <li>Também me ajudou a entender melhor a importância de clareza, organização e acompanhamento contínuo no desenvolvimento.</li>
-    </ul>
+    <summary>🛠️ Acompanhamento de projetos em Scrum</summary>
+    <p align="justify">
+      O contato com Scrum também ganhou uma nova dimensão neste semestre. No primeiro projeto, eu havia experimentado o processo principalmente como desenvolvedor. Agora, como Product Owner, passei a observar as sprints e as entregas a partir de uma perspectiva diferente, mais relacionada à organização e à evolução do produto.
+    </p>
+    <p align="justify">
+      Acompanhar burndown, artefatos, entregas e o andamento das funcionalidades me ajudou a compreender melhor como o progresso do time pode ser acompanhado ao longo de um ciclo de desenvolvimento. Também percebi que planejamento e acompanhamento precisam estar conectados ao objetivo do produto, e não apenas à quantidade de tarefas concluídas.
+    </p>
+    <p align="justify">
+      Essa experiência ampliou minha compreensão sobre <strong>desenvolvimento ágil</strong> e me deu uma visão inicial de como diferentes papéis dentro de um time contribuem para transformar uma ideia em uma entrega estruturada.
+    </p>
   </details>
 
   <h2> 🤝 Soft Skills </h2>
+  <details>
+    <summary>🌱 Comunicação e alinhamento</summary>
+    <p align="justify">
+      Atuar como Product Owner fez com que a <strong>comunicação</strong> passasse a ter um papel muito mais central no meu trabalho. Eu precisava acompanhar o que estava sendo desenvolvido, entender o estado do produto e garantir que as informações importantes estivessem claras para o restante da equipe.
+    </p>
+    <p align="justify">
+      Isso me fez desenvolver uma comunicação mais objetiva e orientada ao contexto. Passei a perceber que não basta transmitir uma informação; é necessário entender o que a outra pessoa precisa saber para conseguir executar sua parte do trabalho ou tomar uma decisão.
+    </p>
+    <p align="justify">
+      Essa experiência foi importante para desenvolver minha capacidade de <strong>alinhar diferentes perspectivas dentro de uma equipe</strong>, algo que se tornou especialmente relevante para minha evolução como profissional de tecnologia.
+    </p>
+  </details>
+
+  <br>
 
   <details>
     <summary>🌱 Organização</summary>
-    <ul>
-      <li>Desenvolvi mais organização ao lidar com documentação, artefatos e acompanhamento do produto.</li>
-      <li>Essa habilidade foi essencial para manter a visão do projeto clara ao longo do semestre.</li>
-      <li>Também contribuiu para que a comunicação com a equipe fosse mais objetiva e estruturada.</li>
-    </ul>
+    <p align="justify">
+      A responsabilidade sobre documentação e artefatos de acompanhamento também exigiu um nível maior de <strong>organização</strong>. Com diferentes módulos, entregas e materiais sendo desenvolvidos ao mesmo tempo, precisei manter uma visão geral do projeto e evitar que informações importantes ficassem dispersas.
+    </p>
+    <p align="justify">
+      Esse processo me mostrou que organização não significa apenas manter arquivos ou tarefas em ordem. Também envolve saber quais informações são relevantes, onde elas devem estar registradas e como facilitar o acesso a elas quando o time precisar.
+    </p>
+    <p align="justify">
+      Foi um aprendizado importante para começar a desenvolver uma postura mais estruturada diante de projetos com múltiplas frentes e diferentes necessidades de acompanhamento.
+    </p>
   </details>
 
-  <details>
-    <summary>🌱 Comunicação com a equipe</summary>
-    <ul>
-      <li>Atuar como Product Owner exigiu comunicação constante para alinhar entendimento sobre o produto e suas entregas.</li>
-      <li>Aprendi a traduzir melhor a necessidade do sistema em informações úteis para o time.</li>
-      <li>Essa experiência fortaleceu minha capacidade de mediação e alinhamento em grupo.</li>
-    </ul>
-  </details>
+   <br>
 
   <details>
     <summary>🌱 Visão de produto</summary>
-    <ul>
-      <li>Aprendi a observar o projeto de uma perspectiva mais ampla, indo além da implementação técnica.</li>
-      <li>Essa vivência me ajudou a entender melhor a importância de pensar no sistema como produto, com propósito, organização e coerência entre suas partes.</li>
-      <li>Foi um passo importante para desenvolver mais senso de prioridade e direção dentro do projeto.</li>
-    </ul>
+    <p align="justify">
+      A principal soft skill desenvolvida neste semestre foi minha <strong>visão de produto</strong>. Ao assumir o papel de Product Owner, precisei deixar de olhar exclusivamente para a implementação e começar a considerar o sistema como uma solução completa, com objetivo, usuários, funcionalidades e prioridades.
+    </p>
+    <p align="justify">
+      Essa mudança de perspectiva me ajudou a entender que uma boa solução não é necessariamente aquela que possui mais funcionalidades, mas aquela em que as diferentes partes fazem sentido dentro do objetivo que o produto pretende alcançar. Passei a observar mais a relação entre necessidade, requisito, funcionalidade e entrega.
+    </p>
+    <p align="justify">
+      Foi um primeiro passo importante para desenvolver <strong>senso de prioridade, visão sistêmica e capacidade de tomar decisões considerando o produto como um todo</strong>.
+    </p>
   </details>
 
+  <br>
+
+  <details>
+    <summary>🌱 Responsabilidade e autonomia</summary>
+    <p align="justify">
+      Assumir uma função diferente da que eu havia exercido no semestre anterior também exigiu mais <strong>autonomia</strong>. Como Product Owner, eu precisava acompanhar o projeto de forma contínua, identificar o que precisava ser organizado e contribuir para que o time tivesse uma visão clara do produto.
+    </p>
+    <p align="justify">
+      Essa experiência me tirou um pouco da posição de apenas executar uma tarefa previamente definida e me colocou em uma situação em que eu precisava entender o contexto antes de decidir como contribuir. Isso desenvolveu minha capacidade de assumir responsabilidade sobre uma área do projeto e buscar as informações necessárias para desempenhar esse papel.
+    </p>
+    <p align="justify">
+      Foi uma experiência importante para começar a construir uma postura mais <strong>proativa e orientada à responsabilidade</strong>, especialmente em situações nas quais nem todas as respostas estavam previamente definidas.
+    </p>
+  </details>
+
+  <h2> 📚 Competências desenvolvidas </h2>
+
+  <h3>💻 Competências técnicas</h3>
+
+  <ul>
+    <li><strong>Product Owner</strong> — básico/intermediário</li>
+    <li><strong>Gestão de produto</strong> — básico/intermediário</li>
+    <li><strong>Scrum e desenvolvimento ágil</strong> — básico/intermediário</li>
+    <li><strong>Documentação de software</strong> — intermediário</li>
+    <li><strong>README e documentação técnica</strong> — intermediário</li>
+    <li><strong>Modelagem de sistemas</strong> — básico/intermediário</li>
+    <li><strong>DER</strong> — básico</li>
+    <li><strong>Wireframes</strong> — básico/intermediário</li>
+    <li><strong>Burndown e acompanhamento de sprints</strong> — básico/intermediário</li>
+    <li><strong>Análise e organização de requisitos</strong> — básico/intermediário</li>
+  </ul>
+
+  <h3>🤝 Soft Skills trabalhadas</h3>
+  <p align="justify">
+    Esse semestre representou uma mudança importante na minha forma de participar de um projeto. Depois de ter atuado principalmente como desenvolvedor no primeiro semestre, assumir o papel de <strong>Product Owner</strong> me obrigou a desenvolver uma visão mais ampla, considerando não apenas como uma funcionalidade seria implementada, mas também qual era seu propósito dentro do produto.
+  </p>
+  <p align="justify">
+    A experiência desenvolveu principalmente minha <strong>comunicação, organização e visão sistêmica</strong>. Precisei acompanhar diferentes partes do projeto, manter informações documentadas e contribuir para que o time tivesse clareza sobre a solução que estava sendo construída.
+  </p>
+  <p align="justify">
+    Também foi um momento importante para desenvolver <strong>autonomia e responsabilidade</strong>. Como PO, passei a ter uma participação mais ativa na organização do produto e comecei a entender melhor como decisões de negócio, requisitos, documentação e desenvolvimento se conectam dentro de um projeto de software.
+  </p>
+  <p align="justify">
+    Se o primeiro semestre foi principalmente sobre aprender a <strong>construir software</strong>, este segundo semestre começou a me ensinar a <strong>entender, organizar e direcionar o software que está sendo construído</strong>. Essa mudança de perspectiva foi uma das principais contribuições do PACER para minha formação.
+  </p>
 </details>
 
----
 <!-- 3º Semestre -->
+<hr>
 <div align="center">
  <h1>3º Semestre • 1/2025</h1>
 </div>
+
 <div align="center">
   <h3><a href="https://github.com/Steam-Ducks/point-system" target="_blank">Pontual - Sistema de Ponto</a></h3>
-  <p><i>Aplicação web para monitorar horas trabalhadas de funcionários de empresas terceirizadas, desenvolvida para a empresa Altave.</i></p>
+  <p><i>Aplicação web desenvolvida para monitorar as horas trabalhadas de funcionários de empresas terceirizadas, com cadastros, relatórios e dashboards interativos.</i></p>
   <br>
-  <img src="assets/3_semestre/pontual.gif" alt="Captura de tela do projeto Pontual" style="width:80%; max-width:700px; border-radius: 8px; border: 1px solid #555;">
+  <img src="assets/3_semestre/pontual.gif" alt="Demonstração do projeto Pontual" style="width:80%; max-width:700px; border-radius: 8px; border: 1px solid #555;">
   <br>
   <p>
     <a href="https://github.com/Steam-Ducks/point-system" target="_blank">
@@ -437,186 +669,190 @@
     </a>
   </p>
 </div>
+
 <details>
   <summary style="font-size: 1.2em; font-weight: bold;">Detalhes do Projeto</summary>
- 
+
   <div align="center">
-    <img src="assets/Introduction-Header.png">
+    <img src="assets/Introduction-Header.png" alt="Introdução">
   </div>
+
   <p align="justify">
-    No terceiro semestre, desenvolvemos um sistema de ponto que batisamos de Pontual, uma aplicação web para monitorar horas trabalhadas de funcionários de empresas terceirizadas. Nosso cliente, a Altave, é uma empresa que atua com coleta de imagens e reconhecimento facial, começaram com balões meteorológicos e hoje trabalham com segurança, por exemplo, em plataformas petrolíferas.
+    No primeiro semestre de 2025, desenvolvemos o <b>Pontual</b>, uma aplicação web criada para monitorar as horas trabalhadas de funcionários de empresas terceirizadas. O projeto foi desenvolvido para a <b>Altave</b>, empresa que atua com coleta de imagens e reconhecimento facial e que hoje aplica essa tecnologia em contextos de segurança, como plataformas petrolíferas.
   </p>
+
   <p align="justify">
-    O caso que o cliente nos apresentou envolvia um estaleiro, onde empresas terceiras fazem manutenção em navios. As câmeras da Altave identificam os colaboradores e enviam essas informações para o sistema, que registra os pontos, calcula horas trabalhadas e gera o valor do salário individualmente.
+    O cenário apresentado pelo cliente envolvia um estaleiro, onde empresas terceiras realizam manutenção em navios. As câmeras da Altave identificam os colaboradores e enviam essas informações para o sistema, que registra os pontos, calcula as horas trabalhadas e gera o valor do salário individualmente. A partir disso, construímos uma interface para cadastro de empresas e profissionais, filtros de dados, extração de relatórios e dashboards interativos.
   </p>
-  
+
   <p align="justify">
-    No projeto, desenvolvemos uma interface para cadastro de empresas e profissionais, filtros de dados, extração de relatórios e dashboards interativos. Um dos desafios foi lidar com funcionários em escalas noturnas e permitir a edição de pontos.
+    Atuei como <b>desenvolvedor full stack</b>, contribuindo com a estruturação do frontend em Vue.js, a integração com a API, o desenvolvimento de classes e serviços no backend e a construção da folha de ponto. Um dos principais desafios foi lidar com funcionários em escalas noturnas e permitir a edição das marcações já registradas.
   </p>
 
   <div align="center">
-    <img src="assets/3_semestre/tecnologias.png" style="border-radius: 20px">
+    <img src="assets/3_semestre/tecnologias.png" alt="Tecnologias utilizadas no projeto" style="border-radius: 20px">
   </div>
-  
+
   <div align="center">
-    <img src="assets/Contribuition-Header.png">
-  </div><br>
-  🛠️ Estruturação do projeto em Vue.js
+    <img src="assets/Contribuition-Header.png" alt="Contribuições">
+  </div>
+
+  <br>
+
   <details>
-  <summary>
-      Organizei a estrutura do projeto, defini padrões de código e criei layouts e componentes reutilizáveis para garantir consistência e manutenção eficiente.
-  </summary>
+    <summary>🛠️ Estruturação do projeto em Vue.js</summary>
     <hr>
-  <p align="justify">
-    - Organizei as pastas, defini rotas e criei padrões de código para garantir consistência no projeto.
-    - Estruturei os layouts principais e componentes reutilizáveis.
-  </p>
-    Estruturei a arquitetura das pastas e defini rotas claras para facilitar a navegação e a manutenção do código. Além disso, estabeleci padrões de desenvolvimento para garantir consistência entre os módulos e maior legibilidade do código. Também desenvolvi os layouts principais e componentes reutilizáveis, promovendo uma interface coerente e otimizando o tempo de desenvolvimento em futuras implementações.
-  </p> 
-  <p align="justify"><b>Trecho do arquivo de rotas:</b></p>
-
-    <pre><code class="language-js">
-    import UserPage from '@/views/users/UserIndex.vue';
-    import Test from '@/components/Test.vue';
-    import LoginPage from '@/views/auth/AuthIndex.vue';
-    import admintLayout from "@/layout/AdmintLayout.vue";
-    import PositionPage from '@/views/position/PositionIndex.vue';
-    const routes = [
-      {
-        path: '/',
-        name: 'Login',
-        component: LoginPage,
-      },
-      {
-        path: '/home',
-        name: 'Home',
-        meta: { requiresAuth: true },
-        component: admintLayout,
-        children: [
-          {
-            path: '',
-            component: HomePage
-          }
-        ]
-      },
-      {
-        path: '/user',
-        component: AdminLayout,
-        meta: { requiresAuth: true },
-        children: [
-          {
-            path: '',
-            component: UserPage,
-          },
-        ],
-      }
-      ...
-    ];
-  </code></pre>
-  <div align="center">
-      <p align="justify"><b>Navegação entre as páginas:</b></p>
-      <img src="assets/3_semestre/navegacao.gif" alt="Organização de Pastas">
-  </div>
-  <hr>
-  </details>
-  ⚙️ Integração do frontend com o backend
-  <details>
-    <summary>
-    Implementei a integração com a API, configurando interceptadores para autenticação e tratamento de erros durante o consumo e manipulação de dados
-  </summary>
-    <hr>
-      <p align="justify">
-        Implementei a comunicação entre o frontend e a API, garantindo o consumo eficiente dos endpoints responsáveis pela exibição e manipulação dos dados da aplicação. Configurei interceptadores de requisição          e resposta para gerenciar automaticamente tokens de autenticação, lidar com erros de forma centralizada e melhorar a segurança e a confiabilidade das operações. Essa abordagem tornou o fluxo de dados             mais robusto, padronizado e fácil de manter ao longo do desenvolvimento.
-      </p>
-  <p align="justify"><b>Trecho do arquivo `TimeRecordService`:</b></p>
-  <pre>
-
-    <code class="language-js">
-    import axios from 'axios';
-    import UserService from './UserService';
-    const API_URL = 'http://localhost:8080/api/timerecords';
-    const formatToLocalDateTimeString = (dateInput) => {
-      let date;
-      if (dateInput instanceof Date) {
-        date = dateInput;
-      } else if (typeof dateInput === 'string') {
-        if (/^\d{4}-\d{2}-\d{2}$/.test(dateInput)) {
-          return `${dateInput}`;
-        }
-        date = new Date(dateInput);
-      } else {
-        console.warn("Tipo de data inválido recebido:", dateInput);
-        return null;
-      }
-      if (!date || isNaN(date.getTime())) {
-        console.warn("Não foi possível parsear a data:", dateInput);
-        return null;
-      }
-    };
- </code></pre>
-  <div align="center">
-      <p align="justify"><b>Consumo de end point para listar marcações de ponto:</b></p>
-    <img src="assets/3_semestre/folha_de_ponto.gif" alt="Organização de Pastas">
-  </div>
-  <hr>
-  </details>
-  🖥️ Contribuições no backend
-  <details>
-    <summary>
-      Desenvolvimento de classes e services para estruturar a lógica da aplicação e integrei o projeto ao banco de dados online Supabase
-    </summary>
-      <hr>
     <p align="justify">
-      - Criação de classes e services.
-      - Integração com banco online <b>Supabase</b>.
-      Desenvolvimento classes e serviços responsáveis por organizar a lógica de negócio e facilitar a comunicação entre os diferentes módulos da aplicação. Estruturei os services de forma modular, promovendo           reutilização de código e separação de responsabilidades. Além disso, integrei o projeto ao banco de dados online **Supabase**, configurando a conexão e implementando operações de leitura, escrita e               atualização de dados de maneira segura e performática. Essa integração garantiu maior escalabilidade e eficiência no gerenciamento das informações.
+      Uma das minhas principais contribuições foi a estruturação inicial do projeto no frontend. Organizei a arquitetura de pastas, defini as rotas da aplicação e estabeleci padrões de código para garantir consistência entre os módulos e maior legibilidade, facilitando a navegação e a manutenção ao longo do desenvolvimento.
     </p>
+    <p align="justify">
+      Também desenvolvi os layouts principais e os componentes reutilizáveis da interface. Esse trabalho ajudou a manter uma experiência visual coerente entre as telas e reduziu o tempo de desenvolvimento das funcionalidades implementadas nas sprints seguintes.
+    </p>
+    <p><b>Trecho do código (arquivo de rotas):</b></p>
+    
+    <pre><code class="language-js">import UserPage from '@/views/users/UserIndex.vue';
+      import Test from '@/components/Test.vue';
+      import LoginPage from '@/views/auth/AuthIndex.vue';
+      import admintLayout from "@/layout/AdmintLayout.vue";
+      import PositionPage from '@/views/position/PositionIndex.vue';
 
-    <p align="justify"><b>Trecho da classe `EmployeeController`:</b></p>
+      const routes = [
+        {
+          path: '/',
+          name: 'Login',
+          component: LoginPage,
+        },
+        {
+          path: '/home',
+          name: 'Home',
+          meta: { requiresAuth: true },
+          component: admintLayout,
+          children: [
+            {
+              path: '',
+              component: HomePage
+            }
+          ]
+        },
+        {
+          path: '/user',
+          component: AdminLayout,
+          meta: { requiresAuth: true },
+          children: [
+            {
+              path: '',
+              component: UserPage,
+            },
+          ],
+        }
+        ...
+    ];</code></pre>
 
-      <pre><code class="language-java">
-      public class EmployeeController {
-          @Autowired
-          private final EmployeeService employeeService;
-          private final SupabaseStorageService supabaseStorageService;
-          public EmployeeController(EmployeeService employeeService, SupabaseStorageService supabaseStorageService) {
-              this.employeeService = employeeService;
-              this.supabaseStorageService = supabaseStorageService;
+  <div align="center">
+    <p><b>Exemplo visual:</b></p>
+    <img src="assets/3_semestre/navegacao.gif" alt="Navegação entre as páginas da aplicação">
+  </div>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Integração do frontend com o backend</summary>
+    <hr>
+    <p align="justify">
+      Implementei a comunicação entre o frontend e a API, garantindo o consumo dos endpoints responsáveis pela exibição e pela manipulação dos dados da aplicação. Esse trabalho envolveu tratar formatos de data, padronizar as chamadas e centralizar a lógica de acesso aos serviços.
+    </p>
+    <p align="justify">
+      Também configurei interceptadores de requisição e resposta para gerenciar automaticamente os tokens de autenticação e lidar com erros de forma centralizada. Essa abordagem tornou o fluxo de dados mais robusto, padronizado e fácil de manter ao longo do desenvolvimento.
+    </p>
+    <p><b>Trecho do código (TimeRecordService.js):</b></p>
+
+    <pre><code class="language-js">import axios from 'axios';
+      import UserService from './UserService';
+
+      const API_URL = 'http://localhost:8080/api/timerecords';
+
+      const formatToLocalDateTimeString = (dateInput) =&gt; {
+        let date;
+        if (dateInput instanceof Date) {
+          date = dateInput;
+        } else if (typeof dateInput === 'string') {
+          if (/^\d{4}-\d{2}-\d{2}$/.test(dateInput)) {
+            return `${dateInput}`;
           }
-          @PostMapping
-          public ResponseEntity<?> createEmployee(@RequestBody EmployeeDto employeeDto) {
-              try {
-                  int employeeId = employeeService.createEmployee(employeeDto);
-                  return ResponseEntity.status(HttpStatus.CREATED)
-                          .body(Map.of("id", employeeId));
-              } catch (IllegalArgumentException e) {
-                  return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                          .body(Map.of("message", e.getMessage()));
-              } catch (ResponseStatusException e) {
-                  return ResponseEntity.status(HttpStatus.NOT_FOUND)
-                          .body(Map.of("message", e.getReason()));
-              } catch (Exception e) {
-                  return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                          .body(Map.of("message", "Erro ao criar um novo funcionário. Tente novamente."));
-              }
-          }
-          @PostMapping("/uploadPhoto")
-          public ResponseEntity<?> uploadEmployeePhoto(@RequestParam("file") MultipartFile file) {
-              try {
-                  String photoUrl = supabaseStorageService.uploadEmployeePhoto(file);
-                  return ResponseEntity.ok(Map.of("photoUrl", photoUrl));
-              } catch (Exception e) {
-                  return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                          .body(Map.of("message", "Erro no upload de foto"));
-              }
-          }
-      }
-      
-    </code></pre>
-          
-    <p align="justify"><b>Trecho do `application.properties`:</b></p>
-      <pre><code class="language-properties">
-      spring.jpa.database=postgresql
+          date = new Date(dateInput);
+        } else {
+          console.warn("Tipo de data inválido recebido:", dateInput);
+          return null;
+        }
+        if (!date || isNaN(date.getTime())) {
+          console.warn("Não foi possível parsear a data:", dateInput);
+          return null;
+        }
+      };</code></pre>
+
+  <div align="center">
+    <p><b>Exemplo visual:</b></p>
+    <img src="assets/3_semestre/folha_de_ponto.gif" alt="Listagem das marcações de ponto consumidas da API">
+  </div>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Desenvolvimento de classes e serviços no backend</summary>
+    <hr>
+    <p align="justify">
+      No backend, desenvolvi classes e serviços responsáveis por organizar a lógica de negócio e facilitar a comunicação entre os diferentes módulos da aplicação. Estruturei os services de forma modular, promovendo a reutilização de código e a separação de responsabilidades.
+    </p>
+    <p align="justify">
+      Também integrei o projeto ao banco de dados online <b>Supabase</b>, configurando a conexão e implementando operações de leitura, escrita e atualização dos dados. Essa integração garantiu maior escalabilidade e eficiência no gerenciamento das informações do sistema.
+    </p>
+    <p><b>Trecho do código (EmployeeController.java):</b></p>  
+        
+      <pre><code class="language-java">public class EmployeeController {
+        @Autowired
+        private final EmployeeService employeeService;
+        private final SupabaseStorageService supabaseStorageService;
+
+        public EmployeeController(EmployeeService employeeService, SupabaseStorageService supabaseStorageService) {
+            this.employeeService = employeeService;
+            this.supabaseStorageService = supabaseStorageService;
+        }
+
+        @PostMapping
+        public ResponseEntity&lt;?&gt; createEmployee(@RequestBody EmployeeDto employeeDto) {
+            try {
+                int employeeId = employeeService.createEmployee(employeeDto);
+                return ResponseEntity.status(HttpStatus.CREATED)
+                        .body(Map.of("id", employeeId));
+            } catch (IllegalArgumentException e) {
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                        .body(Map.of("message", e.getMessage()));
+            } catch (ResponseStatusException e) {
+                return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                        .body(Map.of("message", e.getReason()));
+            } catch (Exception e) {
+                return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                        .body(Map.of("message", "Erro ao criar um novo funcionário. Tente novamente."));
+            }
+        }
+
+        @PostMapping("/uploadPhoto")
+        public ResponseEntity&lt;?&gt; uploadEmployeePhoto(@RequestParam("file") MultipartFile file) {
+            try {
+                String photoUrl = supabaseStorageService.uploadEmployeePhoto(file);
+                return ResponseEntity.ok(Map.of("photoUrl", photoUrl));
+            } catch (Exception e) {
+                return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                        .body(Map.of("message", "Erro no upload de foto"));
+            }
+        }
+      }</code></pre>
+
+  <p><b>Trecho do código (application.properties):</b></p>
+  
+    <pre><code class="language-properties">spring.jpa.database=postgresql
       spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
       spring.jpa.hibernate.ddl-auto=none
       spring.jpa.show-sql=true
@@ -626,140 +862,264 @@
       spring.datasource.password=********
       spring.datasource.driver-class-name=org.postgresql.Driver
     </code></pre>
-      <div align="center">
-        <p align="justify"><b>Consumo de end point para listar marcações de ponto:</b></p>
-        <img src="assets/3_semestre/cadastro_empregado.gif" alt="Organização de Pastas">
-      </div>
-    </details>
-          🚀 Criação da folha de ponto
-    <details>
-    <summary>
-      Criação da lógica por calculo e impressão dos pontos em telas
-    </summary>
-      <hr>
-    <p align="justify">
-      - Criação da lógica por calculo e impressão dos pontos em telas
-    </p>
-    <p align="justify"><b>Trecho de TimeReconrdIndex.vue</b></p>
-        Desenvolvi toda a lógica responsável pelo cálculo e exibição dos pontos na interface. Implementei funções para processar os dados de entrada, realizar os cálculos necessários e gerar resultados precisos em       tempo real. Além disso, estruturei o código para garantir que os pontos fossem renderizados corretamente nas telas, mantendo coerência visual e desempenho otimizado. Essa implementação permitiu uma               experiência dinâmica e interativa para o usuário, com atualização automática das informações conforme as ações realizadas
-      </p>
-    <b>Trecho de TimeReconrdIndex.vue</b></p>
 
-      <pre><code class="language-js">
-      computed: {
-      // Lista os funcionarios no select
+  <div align="center">
+    <p><b>Exemplo visual:</b></p>
+    <img src="assets/3_semestre/cadastro_empregado.gif" alt="Cadastro de funcionário com upload de foto">
+  </div>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Criação da folha de ponto</summary>
+    <hr>
+    <p align="justify">
+      Desenvolvi a lógica responsável pelo cálculo e pela exibição dos pontos na interface. Implementei funções para processar os dados de entrada, realizar os cálculos de horas trabalhadas e gerar os resultados apresentados ao usuário em tempo real.
+    </p>
+    <p align="justify">
+      Também estruturei o código para que os registros fossem renderizados corretamente nas telas, mantendo coerência visual e atualização automática das informações conforme as ações realizadas. Essa foi uma das partes mais desafiadoras do projeto, por envolver escalas noturnas e marcações que atravessavam a meia-noite.
+    </p>
+    <p><b>Trecho do código (TimeRecordIndex.vue):</b></p>
+    
+    <pre><code class="language-js">computed: 
+    {
+      // Lista os funcionários no select
       employeeslist() {
-        return this.employees.map((employee) => ({
+        return this.employees.map((employee) =&gt; ({
           id: employee.id,
           name: employee.name,
         }));
       },
       hasAnyEntrada2() {
-          return this.processedTimeRecords.some(record => record.entrada2);
+        return this.processedTimeRecords.some(record =&gt; record.entrada2);
       },
       hasAnyEntrada3() {
-          return this.processedTimeRecords.some(record => record.entrada3);
+        return this.processedTimeRecords.some(record =&gt; record.entrada3);
       },
       totalWorkedPeriod() {
-      if (!this.processedTimeRecords || this.processedTimeRecords.length === 0) {
-        return '00:00';
-      }
-      const totalMinutes = this.processedTimeRecords.reduce((sum, record) => {
-        const [hours, minutes] = record.totalTrabalhadoDia.split(':').map(Number);
-        return sum + (hours * 60) + minutes;
-      }, 0);
-      const hours = Math.floor(totalMinutes / 60);
-      const minutes = totalMinutes % 60;
-      return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+        if (!this.processedTimeRecords || this.processedTimeRecords.length === 0) {
+          return '00:00';
+        }
+        const totalMinutes = this.processedTimeRecords.reduce((sum, record) =&gt; {
+          const [hours, minutes] = record.totalTrabalhadoDia.split(':').map(Number);
+          return sum + (hours * 60) + minutes;
+        }, 0);
+        const hours = Math.floor(totalMinutes / 60);
+        const minutes = totalMinutes % 60;
+        return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
       },
+    }
     </code></pre>
-    <div align="center">
-        <p align="justify"><b>Exemplo de inclusão de ponto:</b></p>
-      <img src="assets/3_semestre/registro_de_ponto.gif" alt="Organização de Pastas">
-    </div>
-    <br>
-  </details>
+
   <div align="center">
-    <img src="assets/Learn-Header.png">
+      <p><b>Exemplo visual:</b></p>
+      <img src="assets/3_semestre/registro_de_ponto.gif" alt="Inclusão de um registro de ponto na folha">
+    </div>
+  </details>
+
+  <br>
+
+  <div align="center">
+    <img src="assets/Learn-Header.png" alt="Aprendizados">
   </div>
+
   <h2> 💻 Hard Skills </h2>
+
   <details>
     <summary>🛠️ Vue.js e arquitetura de frontend</summary>
-    <ul>
-      <li>Aprendi a organizar rotas, layouts e componentes reutilizáveis em um projeto de médio porte.</li>
-      <li>Esse aprendizado veio da necessidade de manter a aplicação escalável, já que várias telas compartilhavam elementos comuns.</li>
-      <li>Isso ajudou o time a padronizar o código e reduzir retrabalho no desenvolvimento do frontend.</li>
-    </ul>
+    <hr>
+    <p align="justify">
+      O desenvolvimento do Pontual foi meu primeiro contato mais aprofundado com a construção de uma aplicação web utilizando <strong>Vue.js</strong>. Mais do que desenvolver telas individualmente, precisei entender como estruturar um frontend de médio porte para que diferentes páginas, rotas e componentes pudessem funcionar de maneira organizada e consistente.
+    </p>
+    <p align="justify">
+      A necessidade de trabalhar com diferentes módulos me levou a pensar em <strong>arquitetura de frontend</strong>, organização de pastas, rotas, layouts e componentes reutilizáveis. Comecei a perceber que, conforme uma aplicação cresce, simplesmente adicionar novas telas pode gerar complexidade e retrabalho se não houver uma estrutura definida desde o início.
+    </p>
+    <p align="justify">
+      Essa experiência foi importante para desenvolver uma visão mais madura sobre frontend. Passei a considerar não apenas a aparência ou o funcionamento individual de uma tela, mas também como os componentes se relacionam, como o usuário navega pela aplicação e como a estrutura escolhida pode facilitar a manutenção e a evolução do sistema.
+    </p>
   </details>
+
+  <br>
+
   <details>
-    <summary>🛠️ Integração de frontend e backend</summary>
-    <ul>
-      <li>Desenvolvi a habilidade de consumir APIs reais e lidar com autenticação, erros e tratamento de dados.</li>
-      <li>Essa experiência veio principalmente da criação dos serviços de comunicação com a API no Vue.js.</li>
-      <li>No projeto, isso foi essencial para garantir que as telas exibissem informações atualizadas e funcionais para o cliente.</li>
-    </ul>
+    <summary>🛠️ Integração entre frontend e backend</summary>
+    <hr>
+    <p align="justify">
+      Uma das principais evoluções técnicas deste semestre foi aprender a trabalhar com a comunicação entre <strong>frontend e backend</strong>. Até então, minha experiência estava mais concentrada na lógica e na construção de aplicações menores. No Pontual, precisei consumir uma API real e transformar os dados recebidos em informações úteis para as telas da aplicação.
+    </p>
+    <p align="justify">
+      Esse processo envolveu lidar com requisições, respostas, autenticação, formatos de data e tratamento de erros. Também precisei organizar a comunicação com os serviços de maneira centralizada, utilizando interceptadores para lidar com tokens e situações de erro de forma mais consistente.
+    </p>
+    <p align="justify">
+      Essa experiência mudou minha compreensão sobre aplicações web porque comecei a enxergar o sistema como um conjunto de camadas que precisam se comunicar corretamente. Uma tela funcionando não dependia apenas do frontend, mas também da disponibilidade da API, da estrutura dos dados e da forma como essas informações eram processadas entre as diferentes partes da aplicação.
+    </p>
   </details>
+
+  <br>
+
   <details>
-    <summary>🛠️ Java Spring Boot e integração com banco de dados</summary>
-    <ul>
-      <li>Ganhei prática com a criação de controllers, services e integração com o Supabase.</li>
-      <li>Aprendi a lidar com persistência de dados em PostgreSQL e tratamento de exceções no backend.</li>
-      <li>Esse aprendizado foi crucial para estruturar o backend de forma confiável e segura, suportando as regras de negócio.</li>
-    </ul>
+    <summary>🛠️ Java Spring Boot e desenvolvimento de backend</summary>
+    <hr>
+    <p align="justify">
+      No backend, tive contato mais aprofundado com <strong>Java e Spring Boot</strong>, trabalhando com controllers, services e organização da lógica de negócio. Essa experiência foi importante porque me permitiu sair de uma visão limitada ao consumo de APIs e começar a compreender também o que acontece por trás das requisições realizadas pelo frontend.
+    </p>
+    <p align="justify">
+      Ao desenvolver classes e serviços, comecei a aplicar conceitos de <strong>separação de responsabilidades e modularização</strong>. A lógica precisava estar organizada de forma que diferentes partes do sistema pudessem ser mantidas e modificadas sem concentrar todo o comportamento em um único ponto.
+    </p>
+    <p align="justify">
+      Também tive contato com tratamento de exceções e diferentes respostas HTTP, entendendo melhor como o backend deve comunicar erros e resultados para quem está consumindo a API. Essa experiência contribuiu para desenvolver uma visão mais completa do ciclo de uma requisição, desde a interação do usuário até o processamento e persistência dos dados.
+    </p>
   </details>
+
+  <br>
+
   <details>
-    <summary>🛠️ SQL e consultas otimizadas</summary>
-    <ul>
-      <li>Melhorei minha escrita de queries no PostgreSQL, incluindo consultas com filtros de data e agregações.</li>
-      <li>Esse conhecimento veio da necessidade de gerar relatórios de horas trabalhadas e cálculos de folha de ponto.</li>
-      <li>Isso permitiu que o sistema apresentasse informações corretas e em tempo hábil para o cliente.</li>
-    </ul>
+    <summary>🛠️ PostgreSQL, Supabase e persistência de dados</summary>
+    <hr>
+    <p align="justify">
+      O projeto também ampliou meu contato com <strong>bancos de dados relacionais</strong>. Trabalhei com PostgreSQL através do Supabase, participando da integração entre a aplicação e a camada responsável pela persistência das informações.
+    </p>
+    <p align="justify">
+      A necessidade de consultar funcionários, registros de ponto e outras informações do sistema me ajudou a compreender melhor como os dados utilizados pela interface são armazenados e recuperados. Também comecei a perceber a importância de estruturar as consultas de acordo com a necessidade real da aplicação, principalmente quando os dados precisam ser filtrados, agrupados ou processados antes de serem apresentados ao usuário.
+    </p>
+    <p align="justify">
+      Essa experiência foi importante para fortalecer minha compreensão sobre o caminho dos dados dentro de uma aplicação: <strong>o usuário gera uma ação, o frontend realiza uma requisição, o backend processa a regra de negócio, o banco fornece ou armazena os dados e o resultado retorna para a interface</strong>.
+    </p>
   </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Desenvolvimento de regras de negócio e folha de ponto</summary>
+    <hr>
+    <p align="justify">
+      O desenvolvimento da folha de ponto foi uma das experiências mais importantes do projeto para minha evolução técnica. A funcionalidade parecia inicialmente simples, mas envolvia regras específicas para calcular horas trabalhadas e apresentar os registros corretamente, principalmente em situações em que a jornada de trabalho atravessava a meia-noite.
+    </p>
+    <p align="justify">
+      Para resolver esse tipo de cenário, precisei analisar os dados recebidos, entender como os horários deveriam ser interpretados e estruturar a lógica de cálculo de maneira que diferentes combinações de marcações fossem tratadas corretamente. Isso exigiu mais atenção aos casos de borda e mostrou, na prática, como uma regra de negócio aparentemente simples pode gerar desafios técnicos quando aplicada a situações reais.
+    </p>
+    <p align="justify">
+      Essa experiência fortaleceu minha capacidade de transformar uma necessidade do negócio em uma implementação técnica. Mais do que escrever funções para calcular horários, precisei compreender <strong>qual comportamento o sistema deveria apresentar em cada cenário</strong> e garantir que essa regra fosse refletida corretamente no código.
+    </p>
+
+  </details>
+
   <h2> 🤝 Soft Skills </h2>
   <details>
-    <summary>🌱 Colaboração em equipe</summary>
-    <ul>
-      <li>Auxiliei meus colegas de grupo no desenvolvimento de suas partes do projeto, oferecendo suporte técnico e sugestões.</li>
-      <li>Essa colaboração ajudou o time a manter o ritmo de trabalho e reduzir retrabalho.</li>
-      <li>Contribuiu para um ambiente mais coeso e eficiente durante todo o desenvolvimento.</li>
-    </ul>
+    <summary>🌱 Colaboração técnica</summary>
+    <hr>
+    <p align="justify">
+      Trabalhar no Pontual exigiu uma colaboração mais próxima entre diferentes partes do desenvolvimento. Como o projeto possuía frontend, backend, banco de dados e diferentes módulos funcionais, minhas alterações precisavam considerar o trabalho realizado pelos outros integrantes e a forma como as partes do sistema se conectavam.
+    </p>
+    <p align="justify">
+      Também auxiliei colegas durante o desenvolvimento, discutindo soluções, revisando abordagens e ajudando a resolver problemas encontrados ao longo das sprints. Isso me mostrou que conhecimento técnico também pode ser compartilhado dentro do time e que ajudar outra pessoa a encontrar uma solução pode ser tão importante quanto concluir a própria tarefa.
+    </p>
+    <p align="justify">
+      Essa experiência desenvolveu minha capacidade de <strong>colaborar tecnicamente sem perder de vista o objetivo coletivo</strong>, algo especialmente importante em projetos nos quais diferentes pessoas trabalham simultaneamente sobre partes relacionadas do sistema.
+    </p>
   </details>
-  <details>
-    <summary>🌱 Brainstorm e planejamento</summary>
-    <ul>
-      <li>Participei de sessões de brainstorming para definir quais telas e funcionalidades o sistema precisaria ter.</li>
-      <li>Ajudei a identificar soluções para fluxos complexos, como marcações de ponto que atravessam a meia-noite.</li>
-      <li>Essas decisões antecipadas facilitaram o desenvolvimento e reduziram possíveis retrabalhos.</li>
-    </ul>
-  </details>
+
+  <br>
+
   <details>
     <summary>🌱 Resolução de problemas complexos</summary>
-    <ul>
-      <li>Contribuí para encontrar soluções técnicas para situações desafiadoras, como horários noturnos e cálculos de ponto específicos.</li>
-      <li>Isso exigiu análise lógica e criatividade, garantindo que a aplicação funcionasse corretamente em todos os cenários.</li>
-      <li>Minimizou erros e melhorou a confiabilidade do sistema.</li>
-    </ul>
+    <hr>
+    <p align="justify">
+      O Pontual trouxe problemas mais próximos daqueles encontrados em aplicações reais. Um dos principais exemplos foi o tratamento de jornadas noturnas e registros de ponto que atravessavam a meia-noite. A solução não poderia considerar apenas o cenário mais simples; era necessário analisar diferentes possibilidades e garantir que os cálculos permanecessem corretos.
+    </p>
+    <p align="justify">
+      Esse tipo de problema exigiu que eu dividisse a situação em partes menores, identificasse os casos que poderiam gerar inconsistências e testasse diferentes possibilidades antes de chegar a uma implementação adequada. Comecei a desenvolver uma abordagem mais sistemática para problemas técnicos, em vez de tentar resolver tudo diretamente no código.
+    </p>
+    <p align="justify">
+      Essa experiência fortaleceu principalmente minha <strong>capacidade analítica</strong>. Passei a entender melhor que problemas complexos normalmente precisam ser decompostos antes de serem implementados e que considerar casos de borda faz parte da construção de uma solução confiável.
+    </p>
   </details>
+
+  <br>
+
   <details>
-    <summary>🌱 Organização e revisão de tarefas</summary>
-    <ul>
-      <li>Auxiliei na revisão e organização do código de colegas, mantendo padrões consistentes.</li>
-      <li>Isso ajudou a evitar conflitos e problemas de integração entre diferentes partes do sistema.</li>
-      <li>Contribuiu para a qualidade geral do projeto e facilitou o desenvolvimento colaborativo.</li>
-    </ul>
+    <summary>🌱 Planejamento e antecipação</summary>
+    <hr>
+    <p align="justify">
+      A participação em discussões de planejamento e brainstorming também me ajudou a desenvolver uma postura mais preventiva durante o desenvolvimento. Ao discutir telas, fluxos e funcionalidades antes da implementação, comecei a perceber que algumas decisões tomadas antecipadamente poderiam evitar problemas e retrabalho nas etapas seguintes.
+    </p>
+    <p align="justify">
+      Isso ficou especialmente evidente em funcionalidades que possuíam regras mais complexas. Pensar previamente sobre os diferentes cenários de uso permitia identificar dificuldades antes que elas chegassem à implementação, facilitando a divisão das tarefas e a definição de uma solução mais consistente.
+    </p>
+    <p align="justify">
+      Essa experiência me ensinou a valorizar mais o <strong>planejamento técnico</strong>. Nem todo problema precisa ser resolvido durante a codificação; muitas vezes, entender corretamente o problema antes de começar a implementar já reduz uma parte significativa da complexidade.
+    </p>
   </details>
+
+  <br>
+
+  <details>
+    <summary>🌱 Visão sistêmica</summary>
+    <hr>
+    <p align="justify">
+      O maior salto de maturidade deste semestre foi começar a desenvolver uma <strong>visão sistêmica</strong> sobre uma aplicação. Diferentemente dos projetos anteriores, em que eu conseguia enxergar a maior parte da solução de forma mais localizada, o Pontual exigia compreender como frontend, backend, banco de dados, autenticação e regras de negócio funcionavam em conjunto.
+    </p>
+    <p align="justify">
+      Uma alteração em uma camada poderia afetar outra. Um dado retornado de forma diferente pela API poderia exigir mudanças no frontend, enquanto uma regra de negócio mal definida poderia comprometer tanto o processamento quanto a apresentação das informações. Essa relação entre as diferentes partes me fez pensar mais no sistema como um todo.
+    </p>
+    <p align="justify">
+      Essa visão foi importante para minha evolução porque comecei a deixar de enxergar desenvolvimento apenas como a implementação de funcionalidades isoladas. Passei a compreender melhor que <strong>uma aplicação é um conjunto de componentes interdependentes e que uma boa solução precisa considerar essas relações</strong>.
+    </p>
+  </details>
+
+  <h2> 📚 Competências desenvolvidas </h2>
+
+  <h3>💻 Competências técnicas</h3>
+
+  <ul>
+    <li><strong>Vue.js</strong> — intermediário</li>
+    <li><strong>JavaScript</strong> — intermediário</li>
+    <li><strong>Java</strong> — básico/intermediário</li>
+    <li><strong>Spring Boot</strong> — básico/intermediário</li>
+    <li><strong>PostgreSQL</strong> — básico/intermediário</li>
+    <li><strong>Supabase</strong> — básico/intermediário</li>
+    <li><strong>Consumo de APIs REST</strong> — intermediário</li>
+    <li><strong>Integração frontend/backend</strong> — intermediário</li>
+    <li><strong>Autenticação e tokens</strong> — básico/intermediário</li>
+    <li><strong>Arquitetura de frontend</strong> — básico/intermediário</li>
+    <li><strong>Componentização e reutilização de código</strong> — intermediário</li>
+    <li><strong>Regras de negócio</strong> — básico/intermediário</li>
+    <li><strong>Manipulação e cálculo de datas e horários</strong> — básico/intermediário</li>
+    <li><strong>Git e GitHub</strong> — intermediário</li>
+  </ul>
+
+  <h3>🤝 Soft Skills trabalhadas</h3>
+
+  <p align="justify">
+    O terceiro semestre representou uma evolução importante na minha experiência como desenvolvedor. Depois de trabalhar com fundamentos de programação e, posteriormente, assumir uma primeira experiência como Product Owner, no Pontual passei a atuar em uma aplicação web mais completa, com diferentes camadas e regras de negócio.
+  </p>
+
+  <p align="justify">
+    A principal habilidade desenvolvida foi minha <strong>visão sistêmica</strong>. Trabalhar simultaneamente com frontend, backend, banco de dados e integração de APIs me obrigou a compreender como diferentes partes de uma aplicação se relacionam. Uma funcionalidade deixou de ser apenas uma tela ou uma função e passou a representar um fluxo completo de dados e regras.
+  </p>
+
+  <p align="justify">
+    Também desenvolvi minha <strong>capacidade de resolução de problemas e colaboração técnica</strong>. Os desafios relacionados à folha de ponto, principalmente nos casos de jornadas que atravessavam a meia-noite, exigiram análise, planejamento e atenção aos casos de borda. Ao mesmo tempo, trabalhar em equipe e auxiliar colegas mostrou a importância de compartilhar conhecimento e considerar o impacto das próprias decisões sobre o restante do sistema.
+  </p>
+
+  <p align="justify">
+    Se o primeiro semestre foi principalmente sobre construir minha base de programação e o segundo me apresentou uma primeira visão de produto, o Pontual foi o momento em que comecei a <strong>conectar essas duas perspectivas com uma experiência técnica mais completa</strong>. Passei a compreender melhor não apenas como implementar uma funcionalidade, mas como ela se encaixa em uma aplicação real, nas regras de negócio e no trabalho de um time de desenvolvimento.
+  </p>
+
 </details>
 
+<!-- 4º Semestre -->
 <hr>
 <div align="center">
  <h1>4º Semestre • 2/2025</h1>
 </div>
 
 <div align="center">
-  <h3><a href="https://github.com/Steam-Ducks/traffic-monitoring-system" target="_blank">Tráfegou! - Monitoramento de Tráfego Inteligente</a></h3>
+  <h3><a href="https://github.com/Steam-Ducks/traffic-monitoring-system" target="_blank">Tráfegou - Monitoramento de Tráfego Inteligente</a></h3>
   <p><i>Aplicação web full stack desenvolvida para monitorar indicadores de mobilidade urbana, classificar regiões por níveis de tráfego e apoiar a gestão de alertas e protocolos de ação.</i></p>
   <br>
-  <img src="assets/4_semestre/trafegou-dashboard-principal.png" alt="Dashboard principal do projeto Tráfegou!" style="width:80%; max-width:700px; border-radius: 8px; border: 1px solid #555;">
+  <img src="assets/4_semestre/trafegou-dashboard-principal.png" alt="Dashboard principal do projeto Tráfegou" style="width:80%; max-width:700px; border-radius: 8px; border: 1px solid #555;">
   <br>
   <p>
     <a href="https://github.com/Steam-Ducks/traffic-monitoring-system" target="_blank">
@@ -772,11 +1132,11 @@
   <summary style="font-size: 1.2em; font-weight: bold;">Detalhes do Projeto</summary>
 
   <div align="center">
-    <img src="assets/Introduction-Header.png">
+    <img src="assets/Introduction-Header.png" alt="Introdução">
   </div>
 
   <p align="justify">
-    No quarto semestre de 2025, desenvolvemos o projeto <b>Tráfegou! - Monitoramento de Tráfego Inteligente</b>, uma aplicação web criada para apoiar o monitoramento contínuo da mobilidade urbana. O sistema foi pensado para consolidar indicadores de tráfego por região, atribuir níveis de monitoramento, gerar alertas automáticos e registrar protocolos de ação para apoio à tomada de decisão.
+    No segundo semestre de 2025, desenvolvemos o projeto <b>Tráfegou - Monitoramento de Tráfego Inteligente</b>, uma aplicação web criada para apoiar o monitoramento contínuo da mobilidade urbana. O sistema foi pensado para consolidar indicadores de tráfego por região, atribuir níveis de monitoramento, gerar alertas automáticos e registrar protocolos de ação para apoio à tomada de decisão.
   </p>
 
   <p align="justify">
@@ -784,80 +1144,86 @@
   </p>
 
   <p align="justify">
-    Atuei como <b>desenvolvedor full stack</b>, contribuindo tanto na construção de telas e fluxos do frontend quanto na implementação de autenticação, segurança, controllers, integrações e persistência no backend. Minha participação se concentrou principalmente em autenticação de usuários, dashboard administrativo, CRUD de usuários e cargos, configuração de segurança da API, ingestão e tratamento de dados e integração entre camadas do sistema.
+    Atuei como <b>desenvolvedor full stack</b>, contribuindo tanto na construção de telas e fluxos do frontend quanto na implementação de autenticação, segurança, controllers, integrações e persistência no backend. Minha participação se concentrou principalmente em autenticação de usuários, dashboard administrativo, CRUD de usuários e cargos, configuração de segurança da API, ingestão e tratamento de dados e integração entre as camadas do sistema.
   </p>
 
   <div align="center">
-    <img src="assets/4_semestre/tecnologias.png" style="border-radius: 20px">
+    <img src="assets/4_semestre/tecnologias.png" alt="Tecnologias utilizadas no projeto" style="border-radius: 20px">
   </div>
+
   <div align="center">
-    <img src="assets/Contribuition-Header.png">
+    <img src="assets/Contribuition-Header.png" alt="Contribuições">
   </div>
 
   <br>
 
   <details>
-    <summary>🛠️ Implementação da autenticação e fluxo de acesso</summary>
+    <summary>🛠️ Implementação da autenticação e do fluxo de acesso</summary>
     <hr>
     <p align="justify">
-      Uma das minhas principais contribuições no projeto foi a implementação da autenticação e do fluxo de acesso ao sistema. No frontend, atuei na criação da página de login, na lógica de autenticação e no fluxo de logout. No backend, trabalhei na configuração de autenticação, proteção de endpoints e resolução de conflitos relacionados ao acesso.
+      Uma das minhas principais contribuições no projeto foi a implementação da autenticação e do fluxo de acesso ao sistema. No frontend, atuei na criação da página de login, na lógica de autenticação e no fluxo de logout.
+    </p>
+    <p align="justify">
+      No backend, trabalhei na configuração da autenticação, na proteção dos endpoints e na resolução de conflitos relacionados ao acesso. Esse trabalho foi importante para garantir que apenas usuários autorizados alcançassem as áreas administrativas da aplicação.
     </p>
 
-  <p align=\"justify\"><b>Trecho do código frontend (LoginScript.ts):</b></p>
-  <pre><code class=\"language-ts\">export function useLogin() {
-  const nome = ref('');
-  const senha = ref('');
-  const erro = ref('');
-  const store = usuarioStore();
-  const router = useRouter();
+  <p><b>Trecho do código (LoginScript.ts):</b></p>
+    
+    <pre><code class="language-ts">export function useLogin() {
+      const nome = ref('');
+      const senha = ref('');
+      const erro = ref('');
+      const store = usuarioStore();
+      const router = useRouter();
 
-  async function onSubmit(e: Event) {
-    e.preventDefault();
-    erro.value = ''; // limpa mensagem antes de tentar login
-    try {
-      await store.login(nome.value, senha.value);
-      if (store.token) {
-        router.push('/admin');
-      } else {
-        erro.value = 'Usuário ou senha inválidos';
+      async function onSubmit(e: Event) {
+        e.preventDefault();
+        erro.value = ''; // limpa mensagem antes de tentar login
+        try {
+          await store.login(nome.value, senha.value);
+          if (store.token) {
+            router.push('/admin');
+          } else {
+            erro.value = 'Usuário ou senha inválidos';
+          }
+        } catch {
+          erro.value = 'Usuário ou senha inválidos';
+        }
       }
-    } catch {
-      erro.value = 'Usuário ou senha inválidos';
-    }
-  }
 
-  return { nome, senha, erro, onSubmit };
-}</code></pre>
+      return { nome, senha, erro, onSubmit };
+    }</code></pre>
 
-  <p align=\"justify\"><b>Trecho do código backend (SecurityConfig.java):</b></p>
-  <pre><code class=\"language-java\">@Configuration
-@EnableMethodSecurity
-public class SecurityConfig {
-    private final JwtAuthFilter jwtFilter;
+  <p><b>Trecho do código (SecurityConfig.java):</b></p>
+    
+    <pre><code class="language-java">@Configuration
+      @EnableMethodSecurity
+      public class SecurityConfig {
+          private final JwtAuthFilter jwtFilter;
 
-    @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http, JwtAuthFilter jwt) throws Exception {
-        return http
-                .csrf(csrf -> csrf.disable())
-                .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                .authorizeHttpRequests(auth -> auth
-                        .requestMatchers(\"/auth/**\", \"/error\").permitAll()
-                        .requestMatchers(\"/admin/**\").hasRole(\"ADMIN\")
-                        .anyRequest().permitAll()
-                )
-                .addFilterBefore(jwt, UsernamePasswordAuthenticationFilter.class)
-                .build();
-    }
+          @Bean
+          public SecurityFilterChain securityFilterChain(HttpSecurity http, JwtAuthFilter jwt) throws Exception {
+              return http
+                      .csrf(csrf -&gt; csrf.disable())
+                      .sessionManagement(sm -&gt; sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                      .authorizeHttpRequests(auth -&gt; auth
+                              .requestMatchers("/auth/**", "/error").permitAll()
+                              .requestMatchers("/admin/**").hasRole("ADMIN")
+                              .anyRequest().permitAll()
+                      )
+                      .addFilterBefore(jwt, UsernamePasswordAuthenticationFilter.class)
+                      .build();
+          }
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
-}</code></pre>
+          @Bean
+          public PasswordEncoder passwordEncoder() {
+              return new BCryptPasswordEncoder();
+          }
+      }</code></pre>
 
   <div align="center">
-    <p align="justify"><b>Exemplo visual:</b></p>
-    <img src="assets/4_semestre/trafegou-login.png" alt="Tela de login do Tráfegou!">
+    <p><b>Exemplo visual:</b></p>
+    <img src="assets/4_semestre/trafegou-login.png" alt="Tela de login do Tráfegou">
   </div>
   </details>
 
@@ -867,81 +1233,85 @@ public class SecurityConfig {
     <summary>🛠️ Criação do dashboard administrativo e gerenciamento de usuários e cargos</summary>
     <hr>
     <p align="justify">
-      Também atuei no desenvolvimento da área administrativa do sistema. No frontend, contribuí com a criação da página de administração, configuração do grid do dashboard e desenvolvimento de componentes ligados à gestão de usuários, cargos e mensagens. No backend, essa entrega foi complementada pela criação de recursos para listagem, edição e organização de usuários e papéis.
+      Também atuei no desenvolvimento da área administrativa do sistema. No frontend, contribuí com a criação da página de administração, a configuração do grid do dashboard e o desenvolvimento de componentes ligados à gestão de usuários, cargos e mensagens.
     </p>
+    <p align="justify">
+      No backend, essa entrega foi complementada pela criação de recursos para listagem, edição e organização de usuários e papéis, incluindo validações de dados e tratamento de conflitos de cadastro.
+    </p>
+    <p><b>Trecho do código (UserFormComponent.vue):</b></p>
+    
+    <pre><code class="language-ts">async function onSubmit() {
+      try {
+        loading.value = true;
+        error.value = null;
 
-  <p align=\"justify\"><b>Trecho do código frontend (UserFormComponent.vue):</b></p>
-  <pre><code class=\"language-ts\">async function onSubmit() {
-  try {
-    loading.value = true;
-    error.value = null;
+        if (!form.username || !form.email) {
+          throw new Error('Preencha nome e email.');
+        }
+        if (props.mode === 'create' &amp;&amp; (!form.password || form.password.length &lt; 6)) {
+          throw new Error('Senha precisa ter ao menos 6 caracteres.');
+        }
 
-    if (!form.username || !form.email) {
-      throw new Error('Preencha nome e email.');
-    }
-    if (props.mode === 'create' && (!form.password || form.password.length < 6)) {
-      throw new Error('Senha precisa ter ao menos 6 caracteres.');
-    }
+        let saved: User;
 
-    let saved: User;
+        if (props.mode === 'create') {
+          const payload: UserPayload = {
+            username: form.username,
+            email: form.email,
+            phoneNumber: form.phoneNumber.replace(/\D/g, ''),
+            password: form.password,
+            roleId: form.roleId,
+          };
+          saved = await UserService.register(payload);
+          successMsg.value = 'Usuário cadastrado com sucesso!';
+        } else {
+          saved = await UserService.update(props.userId!, {
+            username: form.username,
+            email: form.email,
+            phoneNumber: form.phoneNumber.replace(/\D/g, ''),
+            password: form.password,
+            roleId: form.roleId,
+          });
+        }
+        emit('success', saved);
+      } catch (e: unknown) {
+        error.value = (e as Error).message || 'Erro na operação';
+      } finally {
+        loading.value = false;
+      }
+    }</code></pre>
 
-    if (props.mode === 'create') {
-      const payload: UserPayload = {
-        username: form.username,
-        email: form.email,
-        phoneNumber: form.phoneNumber.replace(/\\D/g, ''),
-        password: form.password,
-        roleId: form.roleId,
-      };
-      saved = await UserService.register(payload);
-      successMsg.value = 'Usuário cadastrado com sucesso!';
-    } else {
-      saved = await UserService.update(props.userId!, {
-        username: form.username,
-        email: form.email,
-        phoneNumber: form.phoneNumber.replace(/\\D/g, ''),
-        password: form.password,
-        roleId: form.roleId,
-      });
-    }
-    emit('success', saved);
-  } catch (e: unknown) {
-    error.value = (e as Error).message || 'Erro na operação';
-  } finally {
-    loading.value = false;
-  }
-}</code></pre>
+  <p><b>Trecho do código (UserService.java):</b></p>
+  
+    <pre><code class="language-java">public ManagerResponseDTO createUser(ManagerRequestDTO requestDTO) {
+      Role adminRole = roleRepository.findByDescription(ADMIN_ROLE_DESCRIPTION)
+              .orElseThrow(() -&gt; new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR,
+              "Role não encontrado."));
 
-  <p align=\"justify\"><b>Trecho do código backend (UserService.java):</b></p>
-  <pre><code class=\"language-java\">public ManagerResponseDTO createUser(ManagerRequestDTO requestDTO) {
-    Role adminRole = roleRepository.findByDescription(ADMIN_ROLE_DESCRIPTION)
-            .orElseThrow(() -> new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, 
-            \"Role não encontrado.\"));
+      if (userRepository.existsByUsername(requestDTO.getUsername())) {
+          throw new ResponseStatusException(HttpStatus.CONFLICT, "Username já existe.");
+      }
 
-    if (userRepository.existsByUsername(requestDTO.getUsername())) {
-        throw new ResponseStatusException(HttpStatus.CONFLICT, \"Username já existe.\");
-    }
+      String normalizedPhone = requestDTO.getPhoneNumber().replaceAll("\\D", "");
+      if (normalizedPhone.length() != 11) {
+          throw new ResponseStatusException(HttpStatus.BAD_REQUEST,
+          "Número de telefone inválido (esperado 11 dígitos)");
+      }
 
-    String normalizedPhone = requestDTO.getPhoneNumber().replaceAll(\"\\\\D\", \"\");
-    if (normalizedPhone.length() != 11) {
-        throw new ResponseStatusException(HttpStatus.BAD_REQUEST, 
-        \"Número de telefone inválido (esperado 11 dígitos)\");
-    }
+      User newUser = new User();
+      newUser.setUsername(requestDTO.getUsername());
+      newUser.setEmail(requestDTO.getEmail());
+      newUser.setPassword(passwordEncoder.encode(requestDTO.getPassword()));
+      newUser.setPhoneNumber(normalizedPhone);
+      newUser.setEnabled(true);
+      newUser.setRole(adminRole);
 
-    User newUser = new User();
-    newUser.setUsername(requestDTO.getUsername());
-    newUser.setEmail(requestDTO.getEmail());
-    newUser.setPassword(passwordEncoder.encode(requestDTO.getPassword()));
-    newUser.setPhoneNumber(normalizedPhone);
-    newUser.setEnabled(true);
-    newUser.setRole(adminRole);
-
-    User savedUser = userRepository.save(newUser);
-    return convertToResponseDTO(savedUser);
-}</code></pre>
+      User savedUser = userRepository.save(newUser);
+      return convertToResponseDTO(savedUser);
+    }</code></pre>
 
   <div align="center">
-    <p align="justify"><b>Exemplo visual:</b></p>
+    <p><b>Exemplo visual:</b></p>
     <img src="assets/4_semestre/trafegou-admin-usuarios.png" alt="Tela administrativa de usuários e cargos">
   </div>
   </details>
@@ -952,77 +1322,81 @@ public class SecurityConfig {
     <summary>🛠️ Integração full stack para indicadores de tráfego</summary>
     <hr>
     <p align="justify">
-      Outra contribuição importante foi a integração entre frontend e backend para consumo e apresentação dos indicadores de tráfego. No frontend, trabalhei com serviços para buscar os níveis das zonas monitoradas e ajustar a interface para refletir corretamente os dados processados. No backend, contribuí com a configuração dos endpoints e com a lógica de cálculo e persistência dos indicadores regionais.
+      Outra contribuição importante foi a integração entre frontend e backend para o consumo e a apresentação dos indicadores de tráfego. No frontend, trabalhei com os serviços responsáveis por buscar os níveis das zonas monitoradas e ajustar a interface para refletir corretamente os dados processados.
     </p>
-
-  <p align="justify"><b>Trecho do código frontend (IndicatorService.ts):</b></p>
-  <pre><code class="language-ts">export interface HourlyIndicator {
-  hour: number
-  regionName: string
-  indicatorName: string
-  averageValue: number
-}
-
-class IndicatorService {
-  async getHourlyIndicators(): Promise<HourlyIndicator[]> {
-    const response = await axios.get<{ hourly: HourlyIndicator[] }>(
-      'http://localhost:8080/indicators/hourly'
-    )
-    return response.data.hourly
-  }
-
-  async getDailyIndicators(): Promise<DailyIndicator[]> {
-    const response = await axios.get<{ daily: (Omit<DailyIndicator, 'day'> & { day: string })[] }>(
-      'http://localhost:8080/indicators/daily'
-    )
-    return response.data.daily.map((item) => ({
-      ...item,
-      day: new Date(item.day),
-    }))
-  }
-
-  async getIndicatorsStatus() {
-    try {
-      return (await axios.get('http://localhost:8080/indicators/status')).data
-    } catch (ex) {
-      console.error('Erro ao buscar status: ', ex)
+    <p align="justify">
+      No backend, contribuí com a configuração dos endpoints e com a lógica de cálculo e persistência dos indicadores regionais, incluindo o cruzamento entre dados de câmeras, regiões e condições climáticas.
+    </p>
+    <p><b>Trecho do código (IndicatorService.ts):</b></p>
+    
+    <pre><code class="language-ts">export interface HourlyIndicator {
+      hour: number
+      regionName: string
+      indicatorName: string
+      averageValue: number
     }
-  }
-}</code></pre>
 
-  <p align="justify"><b>Trecho do código backend (LevelService.java):</b></p>
-  <pre><code class="language-java">public List<ZoneLevelDTO> getLatestRegionLevels() {
-    List<Level> latestLevels = levelRepository.findTop6ByOrderByTimeDesc();
+    class IndicatorService {
+      async getHourlyIndicators(): Promise&lt;HourlyIndicator[]&gt; {
+        const response = await axios.get&lt;{ hourly: HourlyIndicator[] }&gt;(
+          'http://localhost:8080/indicators/hourly'
+        )
+        return response.data.hourly
+      }
 
-    return latestLevels.stream().map(level -> {
-        Integer regionId = level.getRegion().getIdRegion();
-        String regionName = regionRepository.findById(regionId)
-                .map(Region::getName)
-                .orElse("Região Desconhecida");
+      async getDailyIndicators(): Promise&lt;DailyIndicator[]&gt; {
+        const response = await axios.get&lt;{ daily: (Omit&lt;DailyIndicator, 'day'&gt; &amp; { day: string })[] }&gt;(
+          'http://localhost:8080/indicators/daily'
+        )
+        return response.data.daily.map((item) =&gt; ({
+          ...item,
+          day: new Date(item.day),
+        }))
+      }
 
-        Integer latestWeatherCode = getLatestWeatherCodeForRegion(regionId);
-        List<Object[]> cameraData = cameraRepository.findCamerasWithStatsForRegion(regionId);
+      async getIndicatorsStatus() {
+        try {
+          return (await axios.get('http://localhost:8080/indicators/status')).data
+        } catch (ex) {
+          console.error('Erro ao buscar status: ', ex)
+        }
+      }
+    }</code></pre>
 
-        List<Map<String, Object>> cameras = cameraData.stream()
-                .map(row -> {
-                    Map<String, Object> cameraMap = new HashMap<>();
-                    Double avgSpeed = ((Number) row[5]).doubleValue();
-                    
-                    cameraMap.put("id", row[0].toString());
-                    cameraMap.put("latitude", row[1]);
-                    cameraMap.put("longitude", row[2]);
-                    cameraMap.put("address", row[3]);
-                    cameraMap.put("averageSpeed", Math.round(avgSpeed * 100.0) / 100.0);
-                    
-                    return cameraMap;
-                }).collect(Collectors.toList());
+  <p><b>Trecho do código (LevelService.java):</b></p>
+    
+    <pre><code class="language-java">public List&lt;ZoneLevelDTO&gt; getLatestRegionLevels() {
+      List&lt;Level&gt; latestLevels = levelRepository.findTop6ByOrderByTimeDesc();
 
-        return new ZoneLevelDTO(String.valueOf(regionId), regionName, level.getValue(), cameras, latestWeatherCode);
-    }).collect(Collectors.toList());
-}</code></pre>
+      return latestLevels.stream().map(level -&gt; {
+          Integer regionId = level.getRegion().getIdRegion();
+          String regionName = regionRepository.findById(regionId)
+                  .map(Region::getName)
+                  .orElse("Região Desconhecida");
+
+          Integer latestWeatherCode = getLatestWeatherCodeForRegion(regionId);
+          List&lt;Object[]&gt; cameraData = cameraRepository.findCamerasWithStatsForRegion(regionId);
+
+          List&lt;Map&lt;String, Object&gt;&gt; cameras = cameraData.stream()
+                  .map(row -&gt; {
+                      Map&lt;String, Object&gt; cameraMap = new HashMap&lt;&gt;();
+                      Double avgSpeed = ((Number) row[5]).doubleValue();
+
+                      cameraMap.put("id", row[0].toString());
+                      cameraMap.put("latitude", row[1]);
+                      cameraMap.put("longitude", row[2]);
+                      cameraMap.put("address", row[3]);
+                      cameraMap.put("averageSpeed", Math.round(avgSpeed * 100.0) / 100.0);
+
+                      return cameraMap;
+                  }).collect(Collectors.toList());
+
+          return new ZoneLevelDTO(String.valueOf(regionId), regionName, level.getValue(), cameras, latestWeatherCode);
+      }).collect(Collectors.toList());
+  }</code></pre>
 
   <div align="center">
-    <p align="justify"><b>Exemplo visual:</b></p>
+    <p><b>Exemplo visual:</b></p>
     <img src="assets/4_semestre/trafegou-indicadores.png" alt="Indicadores e níveis de tráfego por região">
   </div>
   </details>
@@ -1033,166 +1407,659 @@ class IndicatorService {
     <summary>🛠️ Persistência, tratamento e otimização de dados</summary>
     <hr>
     <p align="justify">
-      Também contribuí com partes relacionadas à persistência e ao tratamento dos dados recebidos pelo sistema. Entre essas entregas, estiveram o salvamento dos registros, o suporte à atualização periódica dos dados, a organização das tabelas e ajustes em estruturas usadas pelos indicadores e alertas.
+      Também contribuí com partes relacionadas à persistência e ao tratamento dos dados recebidos pelo sistema. Entre essas entregas estiveram o salvamento dos registros, o suporte à atualização periódica dos dados, a organização das tabelas e ajustes nas estruturas usadas pelos indicadores e alertas.
     </p>
+    <p align="justify">
+      A rotina de importação foi configurada para ser executada de forma agendada, processando os registros de velocidade, recalculando os indicadores regionais e persistindo os níveis de cada região. Esse fluxo garantiu que os dashboards apresentassem sempre informações atualizadas.
+    </p>
+    <p><b>Trecho do código (SpeedDataImportJob.java):</b></p>
+    <pre><code class="language-java">@Component
+      public class SpeedDataImportJob {
 
-  <p align="justify"><b>Trecho do código (SpeedDataImportJob.java - Scheduler):</b></p>
-  <pre><code class="language-java">@Component
-public class SpeedDataImportJob {
+          private final SpeedRecordService speedRecordService;
+          private final RegionIndicatorService regionIndicatorService;
+          private final LevelService levelService;
 
-    private final SpeedRecordService speedRecordService;
-    private final RegionIndicatorService regionIndicatorService;
-    private final LevelService levelService;
+          @Value("${server.role:MAIN}")
+          private String serverRole;
 
-    @Value("${server.role:MAIN}")
-    private String serverRole;
+          // Executa a cada 2 minutos para importar, processar e persistir dados
+          @Scheduled(cron = "0 */2 * * * ?")
+          public void execute() {
+              if (!"MAIN".equalsIgnoreCase(serverRole)) {
+                  return;
+              }
 
-    // Executa a cada 2 minutos para importar, processar e persistir dados
-    @Scheduled(cron = "0 */2 * * * ?")
-    public void execute() {
-        if (!"MAIN".equalsIgnoreCase(serverRole)) {
-            return;
-        }
+              System.out.println("Inicializado importação de registros!");
 
-        System.out.println("Inicializado importação de registros!");
+              // Busca e substitui registros de velocidade
+              speedRecordService.fetchAndReplaceSpeedRecords();
 
-        // Busca e substitui registros de velocidade
-        speedRecordService.fetchAndReplaceSpeedRecords();
-        
-        // Calcula indicadores regionais
-        regionIndicatorService.calculateAndSaveRegionIndicators();
-        
-        // Calcula e persiste níveis por região
-        levelService.calculateLevelsForAllRegions();
+              // Calcula indicadores regionais
+              regionIndicatorService.calculateAndSaveRegionIndicators();
 
-        System.out.println("Finalizado importação de registros!");
-    }
-}
+              // Calcula e persiste níveis por região
+              levelService.calculateLevelsForAllRegions();
 
-// Entity Indicator.java
-@Entity
-@Table(name = "indicator")
-public class Indicator {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_indicator")
-    private Integer idIndicator;
+              System.out.println("Finalizado importação de registros!");
+          }
+  }</code></pre>
+  <p><b>Trecho do código (Indicator.java e Level.java):</b></p>
+    <pre><code class="language-java">@Entity
+      @Table(name = "indicator")
+      public class Indicator {
+          @Id
+          @GeneratedValue(strategy = GenerationType.IDENTITY)
+          @Column(name = "id_indicator")
+          private Integer idIndicator;
 
-    @Column(name = "name", unique = true, nullable = false)
-    private String name;
+          @Column(name = "name", unique = true, nullable = false)
+          private String name;
 
-    @OneToMany(mappedBy = "indicator", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<RegionIndicator> regionIndicators = new ArrayList<>();
+          @OneToMany(mappedBy = "indicator", cascade = CascadeType.ALL, orphanRemoval = true)
+          private List&lt;RegionIndicator&gt; regionIndicators = new ArrayList&lt;&gt;();
 
-    @OneToMany(mappedBy = "indicator", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Protocol> protocols = new ArrayList<>();
+          @OneToMany(mappedBy = "indicator", cascade = CascadeType.ALL, orphanRemoval = true)
+          private List&lt;Protocol&gt; protocols = new ArrayList&lt;&gt;();
 
-    // getters e setters...
-}
+          // getters e setters...
+      }
 
-// Level.java (Entity para persistência dos níveis)
-@Entity
-@Table(name = "app_level")
-public class Level {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_level")
-    private Integer idLevel;
+      @Entity
+      @Table(name = "app_level")
+      public class Level {
+          @Id
+          @GeneratedValue(strategy = GenerationType.IDENTITY)
+          @Column(name = "id_level")
+          private Integer idLevel;
 
-    @Column(name = "value")
-    private Integer value;
+          @Column(name = "value")
+          private Integer value;
 
-    @Column(name = "time")
-    private OffsetDateTime time;
+          @Column(name = "time")
+          private OffsetDateTime time;
 
-    @ManyToOne
-    @JoinColumn(name = "id_region", nullable = false)
-    private Region region;
+          @ManyToOne
+          @JoinColumn(name = "id_region", nullable = false)
+          private Region region;
 
-    public Level() {}
+          public Level() {}
 
-    public Level(Integer value, OffsetDateTime time, Region region) {
-        this.value = value;
-        this.time = time;
-        this.region = region;
-    }
+          public Level(Integer value, OffsetDateTime time, Region region) {
+              this.value = value;
+              this.time = time;
+              this.region = region;
+          }
 
-    // getters e setters...
-}</code></pre>
-
+          // getters e setters...
+  }</code></pre>
   </details>
 
   <br>
-
-  <div align="center">
-    <img src="assets/Learn-Header.png">
+    <div align="center">
+    <img src="assets/Learn-Header.png" alt="Aprendizados">
   </div>
 
   <h2> 💻 Hard Skills </h2>
 
   <details>
-    <summary>🛠️ Integração entre frontend e backend</summary>
-    <ul>
-      <li>Desenvolvi mais segurança na comunicação entre interface e API, conectando telas, serviços e endpoints reais.</li>
-      <li>Essa experiência veio da implementação de autenticação, consumo de indicadores e integração de funcionalidades administrativas.</li>
-      <li>No projeto, isso foi essencial para garantir consistência entre o que o usuário via na interface e o que era processado no backend.</li>
-    </ul>
+    <summary>🛠️ Desenvolvimento Full Stack</summary>
+    <hr>
+    <p align="justify">
+      O Tráfegou foi um dos projetos em que mais ampliei minha experiência como desenvolvedor <strong>full stack</strong>. Diferentemente dos projetos anteriores, em que minha atuação estava mais concentrada em partes específicas da aplicação, neste projeto trabalhei tanto no frontend quanto no backend, precisando compreender como as diferentes camadas se conectavam para entregar uma funcionalidade completa.
+    </p>
+    <p align="justify">
+      No frontend, trabalhei com <strong>Vue.js 3 e TypeScript</strong>, enquanto no backend utilizei <strong>Java 17 e Spring Boot</strong>. Essa combinação me obrigou a pensar além da implementação de uma tela ou de um endpoint isolado. Era necessário entender o fluxo completo dos dados, desde a interação do usuário até o processamento da informação no backend e sua persistência.
+    </p>
+    <p align="justify">
+      Essa experiência consolidou uma visão mais prática de arquitetura full stack. Passei a compreender melhor a responsabilidade de cada camada e a importância de manter uma comunicação consistente entre interface, serviços, regras de negócio e banco de dados.
+    </p>
   </details>
 
-  <details>
-    <summary>🛠️ Segurança e autenticação</summary>
-    <ul>
-      <li>Aprofundei meu contato com autenticação e controle de acesso em aplicações full stack.</li>
-      <li>Aprendi a trabalhar com login, logout, proteção de rotas, configuração de permissões e comunicação segura com a API.</li>
-      <li>Esse aprendizado foi importante para construir uma aplicação mais robusta e mais próxima de um cenário real.</li>
-    </ul>
-  </details>
+  <br>
 
   <details>
-    <summary>🛠️ Integração com banco de dados</summary>
-    <ul>
-      <li>Ganhei mais prática com persistência de dados, modelagem de tabelas e organização do fluxo de armazenamento no backend.</li>
-      <li>Esse aprendizado apareceu principalmente no salvamento dos registros recebidos e no suporte aos indicadores e alertas.</li>
-      <li>Isso fortaleceu minha visão sobre como o banco sustenta a confiabilidade e a continuidade da aplicação.</li>
-    </ul>
+    <summary>🛠️ Segurança, autenticação e autorização</summary>
+    <hr>
+    <p align="justify">
+      A implementação do fluxo de autenticação foi também um avanço importante na minha experiência técnica. Trabalhei desde a criação da tela de login e do fluxo de logout no frontend até a configuração da segurança da API no backend, incluindo autenticação baseada em <strong>JWT</strong>, proteção de endpoints e controle de acesso por perfil.
+    </p>
+    <p align="justify">
+      Esse processo me fez compreender que autenticação não se resume a verificar usuário e senha. Uma aplicação precisa controlar o ciclo completo de acesso: identificar o usuário, manter sua sessão de forma adequada, proteger recursos e garantir que determinadas operações estejam disponíveis apenas para os perfis autorizados.
+    </p>
+    <p align="justify">
+      Também tive contato com conceitos como <strong>BCrypt, filtros de autenticação, permissões por role e respostas HTTP relacionadas a acesso</strong>. Essa experiência foi importante para começar a tratar segurança como uma parte estrutural da aplicação, e não como uma funcionalidade adicional implementada depois.
+    </p>
   </details>
 
+  <br>
+
   <details>
-    <summary>🛠️ Otimização e tratamento de dados</summary>
-    <ul>
-      <li>Aprendi a olhar com mais cuidado para fluxo de dados, atualização periódica e enriquecimento das informações no backend.</li>
-      <li>Essa experiência veio da implementação de rotinas de persistência, ajustes de estruturas e processamento dos indicadores.</li>
-      <li>No sistema, isso contribuiu para manter os dados mais úteis, consistentes e preparados para exibição em dashboards.</li>
-    </ul>
+    <summary>🛠️ APIs REST e integração entre camadas</summary>
+    <hr>
+    <p align="justify">
+      O projeto aprofundou minha experiência com <strong>APIs REST</strong> e com a integração entre diferentes componentes de uma aplicação. Ao desenvolver serviços no frontend e endpoints no backend, precisei garantir que os dados fossem enviados, processados e retornados no formato esperado por cada camada.
+    </p>
+    <p align="justify">
+      Trabalhar com indicadores de tráfego foi especialmente importante nesse sentido. Os dados precisavam passar por diferentes etapas de processamento antes de serem apresentados na interface, e o frontend precisava interpretar corretamente essas informações para alimentar dashboards, indicadores e outras visualizações.
+    </p>
+    <p align="justify">
+      Essa experiência me ajudou a compreender melhor conceitos como <strong>contratos de API, DTOs, tratamento de respostas, serialização de dados e separação entre responsabilidades</strong>. Também desenvolvi uma maior atenção aos efeitos que uma alteração em um endpoint pode causar nas demais camadas do sistema.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Processamento e automação de dados</summary>
+    <hr>
+    <p align="justify">
+      Outra evolução importante foi o contato com fluxos de <strong>processamento automatizado de dados</strong>. O Tráfegou precisava receber registros de velocidade, processar essas informações, calcular indicadores regionais e atualizar os níveis de cada região de forma periódica.
+    </p>
+    <p align="justify">
+      Trabalhar com uma rotina agendada me fez pensar na aplicação para além das ações realizadas diretamente pelo usuário. O sistema também precisava executar processos em segundo plano, respeitando uma sequência de operações e garantindo que os dados utilizados pelos dashboards permanecessem atualizados.
+    </p>
+    <p align="justify">
+      Esse aprendizado ampliou minha compreensão sobre sistemas que dependem de <strong>pipelines de processamento, tarefas agendadas e persistência contínua</strong>. Passei a perceber melhor como aplicações podem combinar interações em tempo real com processos automatizados responsáveis por manter o estado do sistema atualizado.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Persistência e tratamento de dados</summary>
+    <hr>
+    <p align="justify">
+      O projeto também aprofundou meu contato com a camada de persistência. Trabalhei com entidades, relacionamentos e consultas responsáveis por recuperar informações de regiões, câmeras, indicadores e níveis de tráfego.
+    </p>
+    <p align="justify">
+      Um dos principais aprendizados foi entender que os dados apresentados na interface nem sempre existem no banco exatamente na forma em que o usuário precisa visualizá-los. Em alguns casos, foi necessário combinar informações de diferentes fontes, realizar cálculos e transformar os resultados antes de retorná-los para o frontend.
+    </p>
+    <p align="justify">
+      Essa experiência fortaleceu minha capacidade de trabalhar com <strong>dados como parte de uma regra de negócio</strong>, e não apenas como registros armazenados. Passei a considerar mais cuidadosamente como as informações são persistidas, recuperadas, transformadas e finalmente utilizadas pela aplicação.
+    </p>
   </details>
 
   <h2> 🤝 Soft Skills </h2>
 
   <details>
     <summary>🌱 Visão sistêmica</summary>
-    <ul>
-      <li>Atuar no frontend e no backend me ajudou a enxergar o sistema de forma mais completa.</li>
-      <li>Aprendi a considerar o impacto de cada decisão na interface, na API, na segurança e no armazenamento dos dados.</li>
-      <li>Essa visão mais ampla contribuiu para entregas mais consistentes e melhor integração com o restante do time.</li>
-    </ul>
+    <hr>
+    <p align="justify">
+      A principal habilidade desenvolvida neste projeto foi minha <strong>visão sistêmica</strong>. Trabalhar simultaneamente com frontend, backend, autenticação, banco de dados e processamento de informações tornou mais evidente que uma aplicação não pode ser analisada apenas por suas funcionalidades isoladas.
+    </p>
+    <p align="justify">
+      Uma alteração na autenticação poderia afetar o acesso às telas; uma mudança na API poderia exigir ajustes nos serviços do frontend; uma alteração na estrutura dos dados poderia modificar a forma como os indicadores eram apresentados. Passei a considerar com mais frequência essas dependências antes de implementar ou alterar uma funcionalidade.
+    </p>
+    <p align="justify">
+      Essa visão foi importante para minha evolução porque comecei a pensar menos em "qual código preciso escrever?" e mais em <strong>"qual é o fluxo completo que precisa funcionar?"</strong>.
+    </p>
   </details>
+
+  <br>
 
   <details>
     <summary>🌱 Resolução de problemas</summary>
-    <ul>
-      <li>Ao lidar com autenticação, integração de endpoints e fluxo de dados, desenvolvi mais capacidade de investigar e resolver problemas complexos.</li>
-      <li>Essa habilidade foi importante para reduzir bloqueios durante a implementação das funcionalidades.</li>
-      <li>Também me ajudou a trabalhar de forma mais autônoma em tarefas técnicas com várias camadas envolvidas.</li>
-    </ul>
+    <hr>
+    <p align="justify">
+      O nível de complexidade do Tráfegou também exigiu uma evolução na minha capacidade de <strong>investigar e resolver problemas</strong>. Diferentes problemas poderiam estar relacionados ao frontend, ao backend, à autenticação, aos dados ou à comunicação entre essas camadas, o que exigia uma investigação mais estruturada.
+    </p>
+    <p align="justify">
+      Em vez de considerar apenas o ponto em que um erro aparecia, comecei a analisar o caminho percorrido pela informação para identificar onde o comportamento esperado havia sido interrompido. Essa forma de investigação foi especialmente importante nos problemas relacionados à autenticação e à integração dos indicadores.
+    </p>
+    <p align="justify">
+      Essa experiência contribuiu para desenvolver uma postura mais analítica diante de problemas técnicos e para trabalhar com mais autonomia quando uma solução não era imediatamente evidente.
+    </p>
   </details>
+
+  <br>
 
   <details>
     <summary>🌱 Colaboração técnica</summary>
-    <ul>
-      <li>Como trabalhei em diferentes partes da aplicação, precisei me comunicar bem com o time para alinhar contratos, comportamento das telas e estrutura dos dados.</li>
-      <li>Essa colaboração ajudou a manter o desenvolvimento mais fluido e a reduzir retrabalho.</li>
-      <li>Foi uma experiência importante para fortalecer meu papel em projetos com arquitetura full stack.</li>
-    </ul>
+    <hr>
+    <p align="justify">
+      Como o projeto envolvia diferentes áreas da aplicação, a colaboração técnica se tornou ainda mais importante. Meu trabalho dependia de interfaces bem definidas entre as partes do sistema e, em diferentes momentos, precisei alinhar comportamento de endpoints, estruturas de dados e funcionamento das telas com outros integrantes.
+    </p>
+    <p align="justify">
+      Também tive oportunidades de auxiliar colegas em questões técnicas e discutir alternativas para implementação. Isso me ajudou a perceber que colaboração em desenvolvimento não significa apenas dividir tarefas, mas também <strong>compartilhar contexto e conhecimento para reduzir bloqueios e manter o sistema integrado</strong>.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🌱 Autonomia e responsabilidade técnica</summary>
+    <hr>
+    <p align="justify">
+      A quantidade de responsabilidades técnicas que assumi neste projeto também exigiu mais <strong>autonomia</strong>. Em diferentes momentos, precisei investigar problemas, entender partes do sistema com as quais ainda não tinha familiaridade e buscar uma solução que pudesse ser integrada ao trabalho do restante da equipe.
+    </p>
+    <p align="justify">
+      Essa experiência mudou um pouco minha relação com as tarefas técnicas. Em projetos anteriores, eu ainda estava muito concentrado em aprender a implementar aquilo que havia sido definido. No Tráfegou, comecei a assumir mais responsabilidade pelo resultado da funcionalidade e pelo impacto que minha implementação teria nas outras partes da aplicação.
+    </p>
+    <p align="justify">
+      Foi um passo importante para desenvolver uma postura mais próxima da realidade profissional, em que nem sempre existe uma solução pronta e o desenvolvedor precisa ter autonomia para <strong>investigar, tomar decisões técnicas e assumir responsabilidade pela entrega</strong>.
+    </p>
+  </details>
+
+  <h2> 📚 Competências desenvolvidas </h2>
+
+  <h3>💻 Competências técnicas</h3>
+
+  <ul>
+    <li><strong>Vue.js 3</strong> — intermediário</li>
+    <li><strong>TypeScript</strong> — intermediário</li>
+    <li><strong>Java 17</strong> — intermediário</li>
+    <li><strong>Spring Boot</strong> — intermediário</li>
+    <li><strong>Desenvolvimento Full Stack</strong> — intermediário</li>
+    <li><strong>APIs REST</strong> — intermediário</li>
+    <li><strong>Integração frontend/backend</strong> — intermediário</li>
+    <li><strong>JWT</strong> — básico/intermediário</li>
+    <li><strong>Spring Security</strong> — básico/intermediário</li>
+    <li><strong>Autenticação e autorização</strong> — básico/intermediário</li>
+    <li><strong>PostgreSQL e persistência de dados</strong> — intermediário</li>
+    <li><strong>JPA / Hibernate</strong> — básico/intermediário</li>
+    <li><strong>Processamento e transformação de dados</strong> — intermediário</li>
+    <li><strong>Rotinas agendadas e automação</strong> — básico/intermediário</li>
+    <li><strong>Git e GitHub</strong> — intermediário</li>
+  </ul>
+
+  <h3>🤝 Soft Skills trabalhadas</h3>
+
+  <p align="justify">
+    O quarto semestre representou uma evolução importante na minha experiência técnica. Depois de construir minha base de programação, experimentar o papel de Product Owner e desenvolver uma aplicação web full stack, no Tráfegou passei a trabalhar com problemas que exigiam uma compreensão mais profunda da relação entre diferentes camadas de um sistema.
+  </p>
+
+  <p align="justify">
+    A principal evolução foi minha <strong>visão sistêmica</strong>. Trabalhar com frontend, backend, autenticação, banco de dados e processamento automatizado fez com que eu passasse a enxergar as funcionalidades como fluxos completos. Uma entrega precisava funcionar não apenas individualmente, mas também dentro da arquitetura e das dependências existentes.
+  </p>
+
+  <p align="justify">
+    Também desenvolvi mais <strong>autonomia, capacidade de investigação e responsabilidade técnica</strong>. Os problemas encontrados nem sempre estavam concentrados na parte do código em que apareciam, exigindo que eu investigasse diferentes camadas e entendesse o comportamento do sistema antes de definir uma solução.
+  </p>
+
+  <p align="justify">
+    Se os primeiros semestres foram importantes para construir minha base e experimentar diferentes papéis dentro de um time, o Tráfegou foi o momento em que comecei a consolidar uma atuação mais próxima de um <strong>desenvolvedor full stack</strong>. Passei a conectar desenvolvimento, arquitetura, segurança, dados e regras de negócio em uma mesma entrega, desenvolvendo uma visão mais completa sobre o processo de construção de software.
+  </p>
+  </details>
+
+</details>
+
+<!-- 5º Semestre -->
+<hr>
+<div align="center">
+ <h1>5º Semestre • 1/2026</h1>
+</div>
+
+<div align="center">
+  <h3><a href="https://github.com/Steam-Ducks/strategic-cost-analytics" target="_blank">SCAR - Sistema de Controle e Autonomia de Recursos</a></h3>
+  <p><i>Solução analítica desenvolvida para a SIATT, com Data Warehouse que integra dados de ERP e PLM para consolidar custos de materiais e horas técnicas por projeto e programa, apoiando o acompanhamento orçamentário e a tomada de decisão.</i></p>
+  <br>
+  <img src="assets/5_semestre/scar-dashboard-principal.png" alt="Dashboard principal do projeto SCAR" style="width:80%; max-width:700px; border-radius: 8px; border: 1px solid #555;">
+  <br>
+  <p>
+    <a href="https://github.com/Steam-Ducks/strategic-cost-analytics" target="_blank">
+      <img src="https://img.shields.io/badge/Repositório%20no%20GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo">
+    </a>
+  </p>
+</div>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold;">Detalhes do Projeto</summary>
+
+  <div align="center">
+    <img src="assets/Introduction-Header.png" alt="Introdução">
+  </div>
+
+  <p align="justify">
+    No primeiro semestre de 2026, desenvolvemos o <b>SCAR (Sistema de Controle e Autonomia de Recursos)</b>, uma solução analítica criada para a <b>SIATT</b>, empresa brasileira do setor de defesa especializada em sistemas de mísseis inteligentes, sistemas embarcados críticos e integração de alta tecnologia para aplicações militares. Por se tratar de um ambiente de alta segurança, o projeto exigiu atenção especial a controle de acesso, rastreabilidade e documentação formal das decisões técnicas.
+  </p>
+
+  <p align="justify">
+    O problema apresentado pelo cliente era a fragmentação dos dados de compras, consumo de materiais, estoque, tarefas e horas trabalhadas entre o <b>ERP</b> e o <b>PLM</b>, o que impedia enxergar o custo real de cada projeto e programa. A proposta foi projetar e implementar um <b>Data Warehouse</b>, com modelagem dimensional em estrela/snowflake, capaz de consolidar materiais e horas técnicas em uma base histórica única, viabilizando análises multidimensionais, indicadores de saúde financeira e comparação entre custo real e budget. A solução foi construída com <b>Python e Django</b> no backend e <b>Vue.js com TypeScript</b> no frontend.
+  </p>
+
+  <p align="justify">
+    Neste semestre também fomos orientados a incorporar práticas de <b>DevOps</b> ao projeto, distribuindo entre os integrantes as diferentes frentes da cultura DevOps. Fiquei responsável pela frente de <b>ReqTrack (rastreabilidade de requisitos)</b>, garantindo que cada requisito levantado com o cliente pudesse ser acompanhado até a entrega no repositório.
+  </p>
+
+  <p align="justify">
+    Atuei como <b>Product Owner</b>, sendo responsável pela ponte entre o cliente e o time de desenvolvimento. Conduzi o levantamento de requisitos com o stakeholder, projetei a modelagem dimensional do Data Warehouse, especifiquei as telas e os perfis de acesso, escrevi todo o product backlog em epics e user stories com critérios de aceitação, DoR, DoD e casos de teste, quebrei as user stories em tasks por sprint, documentei os padrões de engenharia do projeto e estruturei a rastreabilidade de requisitos no Jira.
+  </p>
+
+  <div align="center">
+    <img src="assets/5_semestre/tecnologias.png" alt="Tecnologias utilizadas no projeto" style="border-radius: 20px">
+  </div>
+
+  <div align="center">
+    <img src="assets/Contribuition-Header.png" alt="Contribuições">
+  </div>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Levantamento de requisitos e alinhamento com o cliente</summary>
+    <hr>
+    <p align="justify">
+      Minha primeira contribuição foi conduzir o levantamento de requisitos junto ao parceiro da SIATT, traduzindo um cenário de negócio complexo em um escopo viável para o semestre. Esse trabalho envolveu documentar o contexto da empresa, o problema estratégico da fragmentação de dados entre ERP e PLM e as perguntas de negócio que a solução precisava responder, como o custo consolidado por projeto, o desvio percentual em relação ao budget e quais projetos apresentavam risco de estouro.
+    </p>
+    <p align="justify">
+      Também mantive um canal contínuo de perguntas ao cliente para eliminar ambiguidades antes do desenvolvimento, definindo pontos críticos como a fórmula oficial de "custo real", o menor nível de detalhe necessário nas análises, o tratamento de hierarquias entre programa e projeto e a política de moeda. Um momento importante dessa atuação foi negociar com o stakeholder a inclusão do tema de orçamento e saúde financeira apenas na segunda sprint, protegendo o ciclo de desenvolvimento que já estava em andamento sem perder uma necessidade relevante do negócio.
+    </p>
+    <p><b>Trecho da documentação (definições validadas com o cliente):</b></p>
+
+  <div align="center">
+    <p><b>Exemplo visual:</b></p>
+    <img src="assets/5_semestre/scar-perguntas-cliente.png" alt="Documento de perguntas e respostas com o cliente">
+  </div>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Modelagem dimensional do Data Warehouse</summary>
+    <hr>
+    <p align="justify">
+      Fui responsável pelo desenho do modelo analítico do sistema, definindo as dimensões, as tabelas fato, o grão de cada fato e os relacionamentos entre elas. O modelo contemplou dimensões como programa, projeto, tempo, material, fornecedor, colaborador, tarefa, solicitação e pedido de compra, todas com surrogate key e chave natural para preservar a rastreabilidade até o sistema de origem.
+    </p>
+    <p align="justify">
+      Além da estrutura, documentei as regras de negócio e de uso analítico de cada fato, deixando explícito quais tabelas compõem o custo consolidado e quais existem apenas para rastreabilidade operacional. Esse cuidado foi importante para evitar dupla contagem de valores nos indicadores e para que o time tivesse uma referência única sobre como cada número deveria ser calculado, incluindo a regra de classificação da saúde financeira dos projetos.
+    </p>
+    <div align="center">
+      <p><b>Exemplo visual:</b></p>
+      <img src="assets/5_semestre/logical-model.png" alt="Modelo lógico do Data Warehouse do SCAR">
+    </div>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Especificação de telas, wireframes e perfis de acesso</summary>
+    <hr>
+    <p align="justify">
+      Também fui responsável por especificar as telas da aplicação e entregar ao time a referência visual do produto. Para cada tela documentei o objetivo, os elementos esperados, os filtros disponíveis e, no caso dos dashboards, o detalhamento de cada gráfico: tipo de visualização, métrica exibida, comparação realizada e a pergunta de negócio que ele deveria responder.
+    </p>
+    <p align="justify">
+      Outro ponto importante dessa entrega foi a definição da matriz de perfis de acesso. Como o sistema seria utilizado por áreas diferentes — Super Admin, Financeiro, Compras, Almoxarifado e Projetos —, mapeei tela a tela o que cada perfil poderia visualizar e quais indicadores ficariam restritos. Esse recorte era especialmente sensível no contexto da SIATT, onde informação financeira consolidada e dados de projetos estratégicos não devem circular indistintamente.
+    </p>
+    <div align="center">
+    <p><b>Trecho da especificação (Tela 2 — Dashboard principal):</b></p>
+      <img src="assets/5_semestre/scar-wireframe-dashboard.png" alt="Wireframe do dashboard principal do SCAR">
+    </div>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Construção e gestão do product backlog</summary>
+    <hr>
+    <p align="justify">
+      Escrevi o product backlog completo do projeto, organizado em dez epics que cobriam desde acesso e controle até orçamento, saúde financeira e ingestão de dados. Cada user story foi documentada com descrição funcional, critérios de aceitação, Definition of Ready, Definition of Done, casos de teste e referência visual, de forma que o time pudesse iniciar o desenvolvimento sem depender de interpretação.
+    </p>
+    <p align="justify">
+      Além da escrita das histórias, atuei na quebra das entregas em tasks por sprint e na distribuição delas entre os integrantes do time, acompanhando o que era necessário no backend, no frontend e na camada de dados para que cada história fosse concluída. Esse trabalho de decomposição ajudou a manter o ritmo das sprints previsível e a tornar visível a dependência entre as tarefas de ETL e as tarefas de interface.
+    </p>
+    <div align="center">
+      <p><b>Trecho do backlog (User Story 01 — Autenticar no sistema):</b></p>
+      <img src="assets/5_semestre/scar-backlog.png" alt="Product backlog do projeto SCAR">
+      <img src="assets/5_semestre/scar-backlog2.png" alt="Product backlog do projeto SCAR">
+    </div>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ DevOps — rastreabilidade de requisitos (ReqTrack) no Jira</summary>
+    <hr>
+    <p align="justify">
+      Neste semestre fomos orientados a aplicar práticas de DevOps ao projeto, e fiquei responsável pela frente de <b>ReqTrack</b>, ou seja, pela rastreabilidade dos requisitos. O objetivo era garantir que nenhum requisito levantado com o cliente se perdesse ao longo do desenvolvimento e que fosse sempre possível responder onde cada necessidade do negócio estava sendo atendida.
+    </p>
+    <p align="justify">
+      Toda essa estrutura foi construída no <b>Jira</b>. Escrevi todos os requisitos do sistema e atribuí uma <b>tag</b> a cada um deles. Essa tag era referenciada pelos <b>Epics</b>, que por sua vez estavam conectados às <b>User Stories</b>, e cada user story se desdobrava nas <b>Tasks</b> executadas pelo time durante as sprints. Com isso, qualquer item do backlog podia ser percorrido em duas direções: do requisito até a task que o implementou, e da task de volta até a necessidade original do cliente.
+    </p>
+    <p align="justify">
+      Por fim, conectamos o Jira ao repositório do projeto, o <a href="https://github.com/Steam-Ducks/strategic-cost-analytics" target="_blank">strategic-cost-analytics</a>, de forma que os commits e as branches ficassem vinculados às tasks correspondentes. Essa integração fechou o ciclo de rastreabilidade, ligando o requisito de negócio ao código efetivamente entregue.
+    </p>
+    <p><b>Cadeia de rastreabilidade adotada:</b></p>
+    <pre><code>Requisito (com tag)
+      └── Epic (referencia a tag do requisito)
+              └── User Story (critérios de aceitação, DoR, DoD, casos de teste)
+                      └── Task (executada na sprint)
+                              └── Branch / commit no repositório GitHub
+                                  Steam-Ducks/strategic-cost-analytics</code></pre>
+    <div align="center">
+      <p><b>Exemplo Visual de Requisito Funcional:</b></p>
+      <img src="assets/5_semestre/scar-jira-reqtrack.png" alt="Rastreabilidade de requisitos no Jira">
+      <p><b>Exemplo Visual de Epic, User Storie e Task:</b></p>
+      <img src="assets/5_semestre/scar-jira-reqtrack2.png" alt="Rastreabilidade de requisitos no Jira">
+    </div>
+  </details>
+
+  <br>
+    <div align="center">
+    <img src="assets/Learn-Header.png" alt="Aprendizados">
+  </div>
+
+  <h2> 💻 Hard Skills </h2>
+
+  <details>
+    <summary>🛠️ Engenharia de requisitos e Product Ownership</summary>
+    <hr>
+    <p align="justify">
+      O SCAR representou uma evolução importante na minha experiência como <strong>Product Owner</strong>. Nos projetos anteriores, eu já havia tido contato com a organização de produto, documentação e acompanhamento de sprints. Neste semestre, porém, passei a lidar diretamente com um cliente e com um problema de negócio mais complexo, o que exigiu uma atuação mais estruturada na definição do produto.
+    </p>
+    <p align="justify">
+      Precisei transformar conversas com o stakeholder em requisitos concretos, identificar ambiguidades, validar definições e estabelecer o que realmente precisava ser entregue dentro do semestre. Isso envolveu não apenas escrever histórias, mas compreender o problema antes de transformá-lo em especificação.
+    </p>
+    <p align="justify">
+      A experiência aprofundou minha compreensão sobre <strong>engenharia de requisitos, priorização, critérios de aceitação e gestão de escopo</strong>. Também passei a entender melhor o Product Owner como alguém responsável por reduzir a distância entre a necessidade do negócio e aquilo que o time efetivamente consegue construir.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Data Warehouse e modelagem dimensional</summary>
+    <hr>
+    <p align="justify">
+      O maior desafio técnico que assumi neste projeto foi a construção da visão analítica do <strong>Data Warehouse</strong>. O problema do cliente não era simplesmente armazenar dados, mas consolidar informações provenientes de sistemas diferentes para permitir análises confiáveis sobre custos, materiais, horas técnicas e orçamento.
+    </p>
+    <p align="justify">
+      Para isso, precisei compreender conceitos de <strong>modelagem dimensional, tabelas fato, dimensões, grão, surrogate keys e chaves naturais</strong>. Mais importante do que conhecer esses conceitos individualmente foi entender como as decisões de modelagem afetavam diretamente os indicadores que seriam apresentados ao usuário.
+    </p>
+    <p align="justify">
+      Um dos principais aprendizados foi perceber que a qualidade de um dashboard começa muito antes da camada visual. Se o grão de uma tabela estiver errado, se duas fontes forem somadas de maneira inadequada ou se uma regra de negócio não estiver bem definida, o indicador final pode parecer correto e ainda assim representar um número incorreto.
+    </p>
+    <p align="justify">
+      Essa experiência mudou minha forma de pensar sobre dados. Passei a enxergar o Data Warehouse não apenas como uma estrutura de armazenamento, mas como uma <strong>camada de tradução entre os dados operacionais e as perguntas de negócio</strong> que a empresa precisa responder.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Modelagem de regras de negócio e indicadores</summary>
+    <hr>
+    <p align="justify">
+      O SCAR também aprofundou minha experiência na transformação de conceitos de negócio em regras computáveis. Termos como <strong>custo real, budget, desvio percentual e saúde financeira</strong> precisavam deixar de ser apenas conceitos discutidos com o cliente e se tornar regras objetivas que pudessem ser implementadas e reproduzidas pelo sistema.
+    </p>
+    <p align="justify">
+      Para isso, precisei validar com o stakeholder exatamente o que cada indicador deveria representar, qual fonte deveria ser utilizada e quais exceções deveriam ser consideradas. Esse processo mostrou que pequenas ambiguidades em uma definição de negócio podem gerar grandes diferenças na implementação.
+    </p>
+    <p align="justify">
+      Desenvolvi, portanto, uma capacidade maior de <strong>questionar definições, identificar premissas e transformar conceitos abstratos em regras mensuráveis</strong>. Esse aprendizado foi especialmente relevante porque a solução tinha como objetivo apoiar decisões financeiras e, consequentemente, os números apresentados precisavam possuir uma definição clara e rastreável.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Arquitetura analítica e integração de dados</summary>
+    <hr>
+    <p align="justify">
+      Trabalhar com dados provenientes de ERP e PLM também me aproximou de problemas de integração e consolidação de dados. Foi necessário pensar em como diferentes fontes poderiam alimentar uma estrutura analítica única sem perder a rastreabilidade da origem das informações.
+    </p>
+    <p align="justify">
+      Nesse processo, tive contato com conceitos como <strong>staging, ETL/ELT, cargas incrementais e controle de execução</strong>. Passei a compreender melhor que um ambiente analítico depende de uma cadeia de processamento consistente para garantir que os dados apresentados ao usuário estejam atualizados, íntegros e relacionados corretamente às suas fontes.
+    </p>
+    <p align="justify">
+      Esse conhecimento ampliou minha visão sobre sistemas orientados a dados e sobre a quantidade de decisões técnicas que existem entre o dado original e o indicador apresentado em um dashboard.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Rastreabilidade de requisitos e DevOps</summary>
+    <hr>
+    <p align="justify">
+      Outra evolução importante foi meu contato com <strong>DevOps através da rastreabilidade de requisitos</strong>. Fiquei responsável pela frente de ReqTrack e precisei estruturar uma relação clara entre aquilo que havia sido solicitado pelo cliente e aquilo que efetivamente chegava ao código.
+    </p>
+    <p align="justify">
+      A cadeia formada por requisito, epic, user story, task e branch ou commit me mostrou que rastreabilidade não é apenas uma atividade administrativa. Ela permite responder perguntas importantes sobre o desenvolvimento: de onde veio determinada funcionalidade, qual necessidade ela atende, quem trabalhou nela e onde essa implementação pode ser encontrada.
+    </p>
+    <p align="justify">
+      Essa experiência também mudou minha percepção sobre DevOps. Passei a enxergar a disciplina de forma mais ampla, não apenas como infraestrutura ou deploy, mas como um conjunto de práticas que ajudam a conectar <strong>planejamento, desenvolvimento, qualidade, rastreabilidade e entrega</strong>.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🛠️ Padronização e documentação de engenharia</summary>
+    <hr>
+    <p align="justify">
+      A necessidade de documentar os padrões de engenharia do projeto também me fez compreender melhor o papel da <strong>padronização técnica</strong>. Definir estratégias de dados, testes, branches, commits, integração contínua e análise estática ajudou a estabelecer uma referência comum para o time.
+    </p>
+    <p align="justify">
+      Esse aprendizado foi importante porque comecei a perceber que boas práticas de engenharia não funcionam apenas quando cada desenvolvedor conhece determinada técnica. Elas precisam ser transformadas em acordos e padrões que possam ser consultados e aplicados de maneira consistente por todo o time.
+    </p>
+    <p align="justify">
+      Como resultado, desenvolvi uma visão mais madura sobre <strong>governança técnica, documentação e qualidade de desenvolvimento</strong>, entendendo que esses elementos também fazem parte da construção de um produto sustentável.
+    </p>
+  </details>
+
+  <h2> 🤝 Soft Skills </h2>
+
+  <details>
+    <summary>🌱 Comunicação com stakeholders</summary>
+    <hr>
+    <p align="justify">
+      A comunicação com o cliente foi uma das habilidades mais desenvolvidas neste semestre. Diferentemente de simplesmente receber requisitos prontos, precisei conduzir conversas para descobrir informações que ainda não estavam claras e validar se a interpretação do time correspondia à necessidade real do negócio.
+    </p>
+    <p align="justify">
+      Aprendi a formular perguntas mais específicas, apresentar alternativas e explicar as consequências de determinadas decisões. Em vez de tratar uma dúvida como um bloqueio, comecei a utilizá-la como uma oportunidade para eliminar uma ambiguidade antes que ela chegasse ao desenvolvimento.
+    </p>
+    <p align="justify">
+      Essa experiência foi importante para desenvolver uma comunicação mais <strong>estruturada, objetiva e orientada à decisão</strong>, principalmente em situações nas quais o cliente e o time técnico possuem perspectivas diferentes sobre o mesmo problema.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🌱 Negociação e gestão de escopo</summary>
+    <hr>
+    <p align="justify">
+      Uma das habilidades que mais evoluiu foi minha capacidade de lidar com <strong>escopo e prioridades</strong>. Durante o projeto, surgiram necessidades relevantes que não poderiam simplesmente ser ignoradas, mas que também não poderiam interromper uma sprint que já estava em andamento.
+    </p>
+    <p align="justify">
+      A decisão de levar orçamento e saúde financeira para a sprint seguinte foi um exemplo prático desse equilíbrio. Foi necessário reconhecer a importância da demanda, explicar o impacto de introduzi-la naquele momento e encontrar uma alternativa que preservasse tanto a necessidade do cliente quanto o planejamento do time.
+    </p>
+    <p align="justify">
+      Essa situação me ajudou a entender que priorização não significa simplesmente decidir o que é importante e o que não é. Muitas vezes significa <strong>decidir quando algo deve acontecer</strong> para maximizar o valor da entrega sem comprometer aquilo que já está em andamento.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🌱 Pensamento analítico e tomada de decisão</summary>
+    <hr>
+    <p align="justify">
+      O nível de complexidade do problema também exigiu uma evolução na minha capacidade de analisar situações antes de tomar decisões. O SCAR envolvia diferentes fontes de dados, regras financeiras, perfis de acesso, requisitos e limitações de tempo, então uma decisão aparentemente simples poderia afetar várias partes do produto.
+    </p>
+    <p align="justify">
+      Passei a trabalhar mais frequentemente decompondo problemas, identificando dependências e buscando informações antes de definir uma solução. Isso foi especialmente importante na modelagem do Data Warehouse, em que uma decisão sobre estrutura poderia influenciar diretamente os cálculos e indicadores utilizados posteriormente.
+    </p>
+    <p align="justify">
+      Essa experiência fortaleceu minha capacidade de <strong>analisar problemas de diferentes perspectivas e tomar decisões considerando seus impactos</strong>, em vez de olhar apenas para a consequência imediata de uma escolha.
+    </p>
+  </details>
+  <br>
+
+  <details>
+    <summary>🌱 Liderança e coordenação</summary>
+    <hr>
+    <p align="justify">
+      Como Product Owner, também precisei assumir uma posição de coordenação dentro do time. A responsabilidade pelo backlog, pela quebra das histórias em tasks e pelo acompanhamento das dependências entre as diferentes frentes exigiu que eu mantivesse uma visão geral do trabalho sem perder os detalhes necessários para orientar cada entrega.
+    </p>
+    <p align="justify">
+      Essa experiência desenvolveu uma forma diferente de liderança. Não se tratava de distribuir ordens, mas de <strong>criar clareza para que o time pudesse trabalhar</strong>. Uma história bem definida, um critério de aceitação claro ou uma dependência identificada antecipadamente poderiam evitar bloqueios e reduzir retrabalho.
+    </p>
+    <p align="justify">
+      Foi uma evolução importante em relação às experiências anteriores, porque comecei a entender liderança também como a capacidade de organizar contexto, remover ambiguidades e criar condições para que outras pessoas consigam executar bem seu trabalho.
+    </p>
+  </details>
+
+  <br>
+
+  <details>
+    <summary>🌱 Visão de negócio e visão técnica</summary>
+    <hr>
+    <p align="justify">
+      Talvez o principal aprendizado deste semestre tenha sido conseguir aproximar duas perspectivas que até então eu vinha desenvolvendo separadamente: <strong>produto e tecnologia</strong>.
+    </p>
+    <p align="justify">
+      Como Product Owner, precisei entender a dor do cliente e transformar essa necessidade em requisitos. Ao mesmo tempo, precisei compreender modelagem dimensional, regras de cálculo, arquitetura de dados e padrões de engenharia para garantir que aquilo que estava sendo especificado fosse tecnicamente viável.
+    </p>
+    <p align="justify">
+      Essa combinação me ajudou a desenvolver uma visão mais completa sobre projetos de software. Comecei a perceber que uma boa solução depende tanto de entender corretamente <strong>o problema que precisa ser resolvido</strong> quanto de compreender <strong>as limitações e possibilidades da tecnologia utilizada para resolvê-lo</strong>.
+    </p>
+  </details>
+
+  <h2> 📚 Competências desenvolvidas </h2>
+
+  <h3>💻 Competências técnicas</h3>
+
+  <ul>
+    <li><strong>Product Owner</strong> — avançado</li>
+    <li><strong>Engenharia de requisitos</strong> — avançado</li>
+    <li><strong>Product Backlog e User Stories</strong> — avançado</li>
+    <li><strong>Critérios de aceitação, DoR e DoD</strong> — avançado</li>
+    <li><strong>Data Warehouse</strong> — intermediário/avançado</li>
+    <li><strong>Modelagem dimensional</strong> — intermediário/avançado</li>
+    <li><strong>Modelagem Star Schema / Snowflake</strong> — intermediário</li>
+    <li><strong>ETL / ELT</strong> — intermediário</li>
+    <li><strong>PostgreSQL</strong> — intermediário</li>
+    <li><strong>Python</strong> — intermediário</li>
+    <li><strong>Django</strong> — intermediário</li>
+    <li><strong>Vue.js</strong> — intermediário</li>
+    <li><strong>TypeScript</strong> — intermediário</li>
+    <li><strong>Dashboards e indicadores de negócio</strong> — intermediário/avançado</li>
+    <li><strong>Jira</strong> — avançado</li>
+    <li><strong>Rastreabilidade de requisitos</strong> — avançado</li>
+    <li><strong>Git e GitHub</strong> — avançado</li>
+    <li><strong>GitHub Actions</strong> — básico/intermediário</li>
+    <li><strong>Testes e qualidade de software</strong> — básico/intermediário</li>
+    <li><strong>Análise estática de código</strong> — básico/intermediário</li>
+  </ul>
+
+  <h3>🤝 Soft Skills trabalhadas</h3>
+  <p align="justify">
+    O quinto semestre representa um ponto importante na minha formação porque foi o momento em que minha experiência como <strong>Product Owner deixou de ser apenas acadêmica e passou a envolver um problema real de negócio e um stakeholder externo</strong>. O desafio deixou de ser somente organizar o trabalho do time e passou a envolver a compreensão de uma necessidade empresarial complexa e sua transformação em uma solução tecnicamente viável.
+  </p>
+  <p align="justify">
+    A principal evolução foi a combinação entre <strong>visão de negócio e visão técnica</strong>. Para definir o produto, eu precisava entender o que o cliente realmente queria enxergar; para especificá-lo corretamente, precisava compreender como dados, regras de negócio e arquitetura poderiam sustentar aquela necessidade. O Data Warehouse foi especialmente importante nesse processo porque me mostrou que decisões técnicas podem alterar diretamente a qualidade da informação utilizada para tomada de decisão.
+  </p>
+  <p align="justify">
+    Também amadureci minha <strong>comunicação, negociação e capacidade de tomada de decisão</strong>. Trabalhar diretamente com um stakeholder exigiu fazer perguntas melhores, eliminar ambiguidades e negociar prioridades sem perder de vista o objetivo da entrega. Ao mesmo tempo, a responsabilidade pelo backlog e pela rastreabilidade me ensinou a organizar o trabalho de forma que cada entrega pudesse ser relacionada a uma necessidade real.
+  </p>
+  <p align="justify">
+    Se os semestres anteriores foram construindo minha base como desenvolvedor e me apresentando ao papel de Product Owner, o SCAR foi o momento em que essas experiências começaram a se conectar. Passei a atuar simultaneamente sobre <strong>produto, requisitos, dados, arquitetura, qualidade e rastreabilidade</strong>, desenvolvendo uma visão muito mais próxima da realidade de projetos de software complexos.
+  </p>
+  <p align="justify">
+    Mais do que aprender novas ferramentas, este projeto mudou a forma como eu enxergo meu papel dentro de uma equipe. Passei a perceber que minha contribuição não precisa estar limitada à implementação: posso atuar na definição do problema, na organização da solução, na comunicação com o cliente e na construção das condições necessárias para que o time entregue um produto consistente.
+  </p>
   </details>
 
 </details>

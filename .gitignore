@@ -1,0 +1,9 @@
+# Documento com credenciais — nunca commitar
+metodologia/Projeto SCAR.docx
+
+# Rascunhos do portfólio ABNT
+metodologia/TG Portfólio ABNT*.md
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
