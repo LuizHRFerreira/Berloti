@@ -1,5 +1,5 @@
 /* ============================================================
-   PORTFÓLIO — identidade visual inspirada em "The Car" (2022)
+   PORTFÓLIO - identidade visual inspirada em "The Car" (2022)
    Minimalista · brutalista-retrô · anos 70 · papel envelhecido
    Paleta: creme #EAE6DF · carvão #1E2221 · vermelho #7D1A1A
            oliva #5F695E · mostarda #C29B38
@@ -49,46 +49,6 @@ img { max-width: 100%; height: auto; }
 }
 
 .wrap { max-width: 1020px; margin: 0 auto; padding: 0 1.5rem; position: relative; z-index: 1; }
-
-/* --------- barra de navegação --------- */
-.topbar {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: var(--cream);
-  border-bottom: var(--rule);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  padding: .65rem clamp(1rem, 3vw, 2rem);
-}
-
-.topbar-name {
-  font-family: "Archivo Black", sans-serif;
-  font-size: .8rem;
-  letter-spacing: .1em;
-  color: var(--charcoal);
-}
-
-.topbar-links {
-  display: flex;
-  gap: clamp(.7rem, 2vw, 1.3rem);
-  align-items: baseline;
-}
-
-.topbar-links a {
-  font-family: "Courier Prime", monospace;
-  font-weight: 700;
-  font-size: .8rem;
-  letter-spacing: .1em;
-  text-decoration: none;
-  color: var(--olive);
-  padding-bottom: .1rem;
-  border-bottom: 2px solid transparent;
-}
-
-.topbar-links a:hover { color: var(--red); border-bottom-color: var(--red); }
 
 /* ============================================================
    CABEÇALHO (tipografia empilhada)
@@ -237,10 +197,14 @@ img { max-width: 100%; height: auto; }
 /* topo do projeto: info de um lado, imagem do outro, alternando */
 .suite-top {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
   gap: clamp(1.8rem, 4vw, 3.2rem);
   align-items: center;
   margin-bottom: 1.8rem;
+}
+
+.suite:nth-of-type(even) .suite-top {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr);
 }
 
 .suite:nth-of-type(even) .suite-top .suite-head { order: 2; }
@@ -319,17 +283,11 @@ img { max-width: 100%; height: auto; }
 .suite-photo img {
   display: block;
   width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top;
   filter: sepia(.28) contrast(.92) saturate(.82) brightness(1.02);
   border: 1px solid rgba(30, 34, 33, .4);
-}
-
-.suite-photo figcaption {
-  font-family: "Courier Prime", monospace;
-  font-size: .76rem;
-  letter-spacing: .1em;
-  color: var(--olive);
-  margin-top: .6rem;
-  text-align: center;
 }
 
 /* --------- botão do repositório --------- */
@@ -357,7 +315,7 @@ img { max-width: 100%; height: auto; }
 }
 
 /* ============================================================
-   DROPDOWNS (details) — como no README
+   DROPDOWNS (details) - como no README
    ============================================================ */
 details.drop {
   border: 1px solid var(--charcoal);
@@ -593,14 +551,13 @@ pre code {
    RESPONSIVO
    ============================================================ */
 @media (max-width: 900px) {
-  .suite-top { grid-template-columns: 1fr; }
+  .suite-top,
+  .suite:nth-of-type(even) .suite-top { grid-template-columns: 1fr; }
   .suite:nth-of-type(even) .suite-top .suite-head { order: 0; }
   .suite:nth-of-type(even) .suite-top .suite-photo { order: 0; }
 }
 
 @media (max-width: 760px) {
-  .topbar-name { display: none; }
-  .topbar { justify-content: center; }
   .reception { grid-template-columns: 1fr; text-align: center; }
   .reception-text p { text-align: justify; }
   .room-service { justify-content: center; }

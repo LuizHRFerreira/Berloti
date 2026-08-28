@@ -365,15 +365,15 @@ Essa experiência contribuiu para desenvolver uma primeira noção de <strong>qu
 <h3>💻 Competências técnicas</h3>
 
 <ul>
-  <li><strong>Lógica de programação</strong> — básico/intermediário</li>
-  <li><strong>TypeScript</strong> — básico</li>
-  <li><strong>Git e GitHub</strong> — básico/intermediário</li>
-  <li><strong>Estruturas condicionais e funções</strong> — básico/intermediário</li>
-  <li><strong>Validação de entradas</strong> — básico/intermediário</li>
-  <li><strong>Tratamento de erros</strong> — básico/intermediário</li>
-  <li><strong>Modularização de código</strong> — básico</li>
-  <li><strong>Aplicações de terminal</strong> — básico/intermediário</li>
-  <li><strong>Conversão entre bases numéricas</strong> — básico/intermediário</li>
+  <li><strong>Lógica de programação</strong>: básico/intermediário</li>
+  <li><strong>TypeScript</strong>: básico</li>
+  <li><strong>Git e GitHub</strong>: básico/intermediário</li>
+  <li><strong>Estruturas condicionais e funções</strong>: básico/intermediário</li>
+  <li><strong>Validação de entradas</strong>: básico/intermediário</li>
+  <li><strong>Tratamento de erros</strong>: básico/intermediário</li>
+  <li><strong>Modularização de código</strong>: básico</li>
+  <li><strong>Aplicações de terminal</strong>: básico/intermediário</li>
+  <li><strong>Conversão entre bases numéricas</strong>: básico/intermediário</li>
 </ul>
 
 <h3>🤝 Soft Skills trabalhadas</h3>
@@ -624,16 +624,16 @@ Por fim, a experiência ajudou a desenvolver minha <strong>disciplina técnica</
   <h3>💻 Competências técnicas</h3>
 
   <ul>
-    <li><strong>Product Owner</strong> — básico/intermediário</li>
-    <li><strong>Gestão de produto</strong> — básico/intermediário</li>
-    <li><strong>Scrum e desenvolvimento ágil</strong> — básico/intermediário</li>
-    <li><strong>Documentação de software</strong> — intermediário</li>
-    <li><strong>README e documentação técnica</strong> — intermediário</li>
-    <li><strong>Modelagem de sistemas</strong> — básico/intermediário</li>
-    <li><strong>DER</strong> — básico</li>
-    <li><strong>Wireframes</strong> — básico/intermediário</li>
-    <li><strong>Burndown e acompanhamento de sprints</strong> — básico/intermediário</li>
-    <li><strong>Análise e organização de requisitos</strong> — básico/intermediário</li>
+    <li><strong>Product Owner</strong>: básico/intermediário</li>
+    <li><strong>Gestão de produto</strong>: básico/intermediário</li>
+    <li><strong>Scrum e desenvolvimento ágil</strong>: básico/intermediário</li>
+    <li><strong>Documentação de software</strong>: intermediário</li>
+    <li><strong>README e documentação técnica</strong>: intermediário</li>
+    <li><strong>Modelagem de sistemas</strong>: básico/intermediário</li>
+    <li><strong>DER</strong>: básico</li>
+    <li><strong>Wireframes</strong>: básico/intermediário</li>
+    <li><strong>Burndown e acompanhamento de sprints</strong>: básico/intermediário</li>
+    <li><strong>Análise e organização de requisitos</strong>: básico/intermediário</li>
   </ul>
 
   <h3>🤝 Soft Skills trabalhadas</h3>
@@ -1073,20 +1073,20 @@ Por fim, a experiência ajudou a desenvolver minha <strong>disciplina técnica</
   <h3>💻 Competências técnicas</h3>
 
   <ul>
-    <li><strong>Vue.js</strong> — intermediário</li>
-    <li><strong>JavaScript</strong> — intermediário</li>
-    <li><strong>Java</strong> — básico/intermediário</li>
-    <li><strong>Spring Boot</strong> — básico/intermediário</li>
-    <li><strong>PostgreSQL</strong> — básico/intermediário</li>
-    <li><strong>Supabase</strong> — básico/intermediário</li>
-    <li><strong>Consumo de APIs REST</strong> — intermediário</li>
-    <li><strong>Integração frontend/backend</strong> — intermediário</li>
-    <li><strong>Autenticação e tokens</strong> — básico/intermediário</li>
-    <li><strong>Arquitetura de frontend</strong> — básico/intermediário</li>
-    <li><strong>Componentização e reutilização de código</strong> — intermediário</li>
-    <li><strong>Regras de negócio</strong> — básico/intermediário</li>
-    <li><strong>Manipulação e cálculo de datas e horários</strong> — básico/intermediário</li>
-    <li><strong>Git e GitHub</strong> — intermediário</li>
+    <li><strong>Vue.js</strong>: intermediário</li>
+    <li><strong>JavaScript</strong>: intermediário</li>
+    <li><strong>Java</strong>: básico/intermediário</li>
+    <li><strong>Spring Boot</strong>: básico/intermediário</li>
+    <li><strong>PostgreSQL</strong>: básico/intermediário</li>
+    <li><strong>Supabase</strong>: básico/intermediário</li>
+    <li><strong>Consumo de APIs REST</strong>: intermediário</li>
+    <li><strong>Integração frontend/backend</strong>: intermediário</li>
+    <li><strong>Autenticação e tokens</strong>: básico/intermediário</li>
+    <li><strong>Arquitetura de frontend</strong>: básico/intermediário</li>
+    <li><strong>Componentização e reutilização de código</strong>: intermediário</li>
+    <li><strong>Regras de negócio</strong>: básico/intermediário</li>
+    <li><strong>Manipulação e cálculo de datas e horários</strong>: básico/intermediário</li>
+    <li><strong>Git e GitHub</strong>: intermediário</li>
   </ul>
 
   <h3>🤝 Soft Skills trabalhadas</h3>
@@ -1646,21 +1646,21 @@ Por fim, a experiência ajudou a desenvolver minha <strong>disciplina técnica</
   <h3>💻 Competências técnicas</h3>
 
   <ul>
-    <li><strong>Vue.js 3</strong> — intermediário</li>
-    <li><strong>TypeScript</strong> — intermediário</li>
-    <li><strong>Java 17</strong> — intermediário</li>
-    <li><strong>Spring Boot</strong> — intermediário</li>
-    <li><strong>Desenvolvimento Full Stack</strong> — intermediário</li>
-    <li><strong>APIs REST</strong> — intermediário</li>
-    <li><strong>Integração frontend/backend</strong> — intermediário</li>
-    <li><strong>JWT</strong> — básico/intermediário</li>
-    <li><strong>Spring Security</strong> — básico/intermediário</li>
-    <li><strong>Autenticação e autorização</strong> — básico/intermediário</li>
-    <li><strong>PostgreSQL e persistência de dados</strong> — intermediário</li>
-    <li><strong>JPA / Hibernate</strong> — básico/intermediário</li>
-    <li><strong>Processamento e transformação de dados</strong> — intermediário</li>
-    <li><strong>Rotinas agendadas e automação</strong> — básico/intermediário</li>
-    <li><strong>Git e GitHub</strong> — intermediário</li>
+    <li><strong>Vue.js 3</strong>: intermediário</li>
+    <li><strong>TypeScript</strong>: intermediário</li>
+    <li><strong>Java 17</strong>: intermediário</li>
+    <li><strong>Spring Boot</strong>: intermediário</li>
+    <li><strong>Desenvolvimento Full Stack</strong>: intermediário</li>
+    <li><strong>APIs REST</strong>: intermediário</li>
+    <li><strong>Integração frontend/backend</strong>: intermediário</li>
+    <li><strong>JWT</strong>: básico/intermediário</li>
+    <li><strong>Spring Security</strong>: básico/intermediário</li>
+    <li><strong>Autenticação e autorização</strong>: básico/intermediário</li>
+    <li><strong>PostgreSQL e persistência de dados</strong>: intermediário</li>
+    <li><strong>JPA / Hibernate</strong>: básico/intermediário</li>
+    <li><strong>Processamento e transformação de dados</strong>: intermediário</li>
+    <li><strong>Rotinas agendadas e automação</strong>: básico/intermediário</li>
+    <li><strong>Git e GitHub</strong>: intermediário</li>
   </ul>
 
   <h3>🤝 Soft Skills trabalhadas</h3>
@@ -1779,10 +1779,10 @@ Por fim, a experiência ajudou a desenvolver minha <strong>disciplina técnica</
       Também fui responsável por especificar as telas da aplicação e entregar ao time a referência visual do produto. Para cada tela documentei o objetivo, os elementos esperados, os filtros disponíveis e, no caso dos dashboards, o detalhamento de cada gráfico: tipo de visualização, métrica exibida, comparação realizada e a pergunta de negócio que ele deveria responder.
     </p>
     <p align="justify">
-      Outro ponto importante dessa entrega foi a definição da matriz de perfis de acesso. Como o sistema seria utilizado por áreas diferentes — Super Admin, Financeiro, Compras, Almoxarifado e Projetos —, mapeei tela a tela o que cada perfil poderia visualizar e quais indicadores ficariam restritos. Esse recorte era especialmente sensível no contexto da SIATT, onde informação financeira consolidada e dados de projetos estratégicos não devem circular indistintamente.
+      Outro ponto importante dessa entrega foi a definição da matriz de perfis de acesso. Como o sistema seria utilizado por áreas diferentes (Super Admin, Financeiro, Compras, Almoxarifado e Projetos), mapeei tela a tela o que cada perfil poderia visualizar e quais indicadores ficariam restritos. Esse recorte era especialmente sensível no contexto da SIATT, onde informação financeira consolidada e dados de projetos estratégicos não devem circular indistintamente.
     </p>
     <div align="center">
-    <p><b>Trecho da especificação (Tela 2 — Dashboard principal):</b></p>
+    <p><b>Trecho da especificação (Tela 2: Dashboard principal):</b></p>
       <img src="assets/5_semestre/scar-wireframe-dashboard.png" alt="Wireframe do dashboard principal do SCAR">
     </div>
   </details>
@@ -1799,7 +1799,7 @@ Por fim, a experiência ajudou a desenvolver minha <strong>disciplina técnica</
       Além da escrita das histórias, atuei na quebra das entregas em tasks por sprint e na distribuição delas entre os integrantes do time, acompanhando o que era necessário no backend, no frontend e na camada de dados para que cada história fosse concluída. Esse trabalho de decomposição ajudou a manter o ritmo das sprints previsível e a tornar visível a dependência entre as tarefas de ETL e as tarefas de interface.
     </p>
     <div align="center">
-      <p><b>Trecho do backlog (User Story 01 — Autenticar no sistema):</b></p>
+      <p><b>Trecho do backlog (User Story 01: Autenticar no sistema):</b></p>
       <img src="assets/5_semestre/scar-backlog.png" alt="Product backlog do projeto SCAR">
       <img src="assets/5_semestre/scar-backlog2.png" alt="Product backlog do projeto SCAR">
     </div>
@@ -1808,7 +1808,7 @@ Por fim, a experiência ajudou a desenvolver minha <strong>disciplina técnica</
   <br>
 
   <details>
-    <summary>🛠️ DevOps — rastreabilidade de requisitos (ReqTrack) no Jira</summary>
+    <summary>🛠️ DevOps: rastreabilidade de requisitos (ReqTrack) no Jira</summary>
     <hr>
     <p align="justify">
       Neste semestre fomos orientados a aplicar práticas de DevOps ao projeto, e fiquei responsável pela frente de <b>ReqTrack</b>, ou seja, pela rastreabilidade dos requisitos. O objetivo era garantir que nenhum requisito levantado com o cliente se perdesse ao longo do desenvolvimento e que fosse sempre possível responder onde cada necessidade do negócio estava sendo atendida.
@@ -2022,26 +2022,26 @@ Por fim, a experiência ajudou a desenvolver minha <strong>disciplina técnica</
   <h3>💻 Competências técnicas</h3>
 
   <ul>
-    <li><strong>Product Owner</strong> — avançado</li>
-    <li><strong>Engenharia de requisitos</strong> — avançado</li>
-    <li><strong>Product Backlog e User Stories</strong> — avançado</li>
-    <li><strong>Critérios de aceitação, DoR e DoD</strong> — avançado</li>
-    <li><strong>Data Warehouse</strong> — intermediário/avançado</li>
-    <li><strong>Modelagem dimensional</strong> — intermediário/avançado</li>
-    <li><strong>Modelagem Star Schema / Snowflake</strong> — intermediário</li>
-    <li><strong>ETL / ELT</strong> — intermediário</li>
-    <li><strong>PostgreSQL</strong> — intermediário</li>
-    <li><strong>Python</strong> — intermediário</li>
-    <li><strong>Django</strong> — intermediário</li>
-    <li><strong>Vue.js</strong> — intermediário</li>
-    <li><strong>TypeScript</strong> — intermediário</li>
-    <li><strong>Dashboards e indicadores de negócio</strong> — intermediário/avançado</li>
-    <li><strong>Jira</strong> — avançado</li>
-    <li><strong>Rastreabilidade de requisitos</strong> — avançado</li>
-    <li><strong>Git e GitHub</strong> — avançado</li>
-    <li><strong>GitHub Actions</strong> — básico/intermediário</li>
-    <li><strong>Testes e qualidade de software</strong> — básico/intermediário</li>
-    <li><strong>Análise estática de código</strong> — básico/intermediário</li>
+    <li><strong>Product Owner</strong>: avançado</li>
+    <li><strong>Engenharia de requisitos</strong>: avançado</li>
+    <li><strong>Product Backlog e User Stories</strong>: avançado</li>
+    <li><strong>Critérios de aceitação, DoR e DoD</strong>: avançado</li>
+    <li><strong>Data Warehouse</strong>: intermediário/avançado</li>
+    <li><strong>Modelagem dimensional</strong>: intermediário/avançado</li>
+    <li><strong>Modelagem Star Schema / Snowflake</strong>: intermediário</li>
+    <li><strong>ETL / ELT</strong>: intermediário</li>
+    <li><strong>PostgreSQL</strong>: intermediário</li>
+    <li><strong>Python</strong>: intermediário</li>
+    <li><strong>Django</strong>: intermediário</li>
+    <li><strong>Vue.js</strong>: intermediário</li>
+    <li><strong>TypeScript</strong>: intermediário</li>
+    <li><strong>Dashboards e indicadores de negócio</strong>: intermediário/avançado</li>
+    <li><strong>Jira</strong>: avançado</li>
+    <li><strong>Rastreabilidade de requisitos</strong>: avançado</li>
+    <li><strong>Git e GitHub</strong>: avançado</li>
+    <li><strong>GitHub Actions</strong>: básico/intermediário</li>
+    <li><strong>Testes e qualidade de software</strong>: básico/intermediário</li>
+    <li><strong>Análise estática de código</strong>: básico/intermediário</li>
   </ul>
 
   <h3>🤝 Soft Skills trabalhadas</h3>
